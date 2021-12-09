@@ -4,16 +4,18 @@
 		<meta charset="UTF-8"/>
 		<meta name="keyword" content="index,follow"/>
 		<title>
+			<!--PAGENAME-->
 		</title>
-		<link rel="stylesheet" type="text/css" href="../style.css">
+		<link rel="stylesheet" type="text/css" href="/style.css">
 	</head>
 	<body>
 		<header>
+			<!--TITLE-->
 		</header>
 		<nav>
 			&#91;
-			<a href="../index.html">Home</a> &vert;
-			<a href="#Blog">Blog</a> &vert;
+			<a href="/index.html">Home</a> &vert;
+			<a href="/blog/blog.html">Blog</a> &vert;
 			<a href="https://github.com/segf00lt">Software</a> &vert;
 			<a href="#Music">Music</a> &vert;
 			<a href="#Contact">Contact</a>
@@ -21,11 +23,12 @@
 		</nav>
 		<main>
 		<hr>
+		<!--CONTENT-->
 		</hr>
 		</main>
 		<footer>
 			<hr>
-			<h3><a href="index.html">https://joaodear.xyz</a></h3>
+			<h3><a href="/index.html">https://joaodear.xyz</a></h3>
 			</hr>
 		</footer>
 	</body>
