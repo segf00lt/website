@@ -22,8 +22,8 @@ title="Blog Index"
 
 content="$(tac "$blogindex" | md2html)"
 
-sed -ne "s/\(<\!--PAGENAME-->\)/\1$title/"\
-	-ne "s/\(<\!--TITLE-->\)/\1<h1>$title<\/h1>/"\
+sed -ne "s/<\!--PAGENAME-->/$title/"\
+	-ne "s/<\!--TITLE-->/<h1>$title<\/h1>/"\
 	-e "0,/<\!--CONTENT-->/p"\
 	"$template" > "$page"
 

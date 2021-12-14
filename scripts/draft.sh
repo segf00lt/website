@@ -12,8 +12,8 @@ title=`sed -n "s/<h1>\(.*\)<\/h1>/\1/p" tmp`
 body=`tail -n +2 tmp`
 rm tmp
 
-sed -ne "s/\(<\!--PAGENAME-->\)/\1$title/"\
-	-ne "s/\(<\!--TITLE-->\)/\1<h1>$title<\/h1>/"\
+sed -ne "s/<\!--PAGENAME-->/$title/"\
+	-ne "s/<\!--TITLE-->/<h1>$title<\/h1>/"\
 	-e "0,/<\!--CONTENT-->/p"\
 	"$template"
 

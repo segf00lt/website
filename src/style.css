@@ -3,10 +3,6 @@ body {
 	font-family: monospace;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	font-family: monospace;
-}
-
 body, hr {
 	color: #dfdfdf;
 }
@@ -15,9 +11,22 @@ header {
 	padding-top: 10px;
 }
 
+header > h1 {
+	font-size: 2.5rem;
+	text-align: center;
+	color: #70966c
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
 main {
 	margin: auto;
-	font-size: 11pt;
+	min-height: 200px;
+	font-size: 0.92rem;
 }
 
 nav {
@@ -25,47 +34,66 @@ nav {
 	margin-top: auto;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 30px;
-	font-size: 11pt;
+	margin-bottom: 20px;
 	font-family: monospace;
+	font-size: 0.85rem;
 }
 
-main, nav, footer, hr {
+main, nav, footer {
 	max-width: 850px;
 }
 
 a { text-decoration: none; }
-
 a:link { color: #9fc7ea; }
-
 a:visited { color: #9fc7ea; }
-
 a:hover { color: #6f97ba; }
 
-body > header > h1 {
-	font-size: 29pt;
+nav > ul {
+	padding: 0;
+}
+
+footer {
+	margin-top: 50px;
+	margin-bottom: auto;
+	margin-left: auto;
+	margin-right: auto;
 	text-align: center;
-	color: #70966c
 }
 
-h2 {
-	margin-top: 1%;
-	margin-bottom: 0.5%;
+@media (max-width: 55em) {
+	body {
+		max-width: 95%;
+	}
 }
 
-h2 {
-	margin-top: 1%;
-	margin-bottom: 0.5%;
+@media (max-device-width: 800px) {
+	header h1 {
+		font-size: 5rem;
+	}
+	h2 {
+		font-size: 3rem;
+	}
+	main {
+		font-size: 2.0rem;
+	}
+	nav {
+		font-size: 1.5rem;
+	}
+	footer {
+		font-size: 2rem;
+	}
+	main {
+		max-width: 95%;
+	}
+	nav, footer, hr {
+		max-width: 100%;
+	}
 }
 
-.welcome {
-	float: left;
-}
-
+/* index.html */
 .left {
 	float: left;
 	width: 60%;
-	margin-bottom: 3%;
 }
 
 .right {
@@ -74,12 +102,6 @@ h2 {
 	margin-top: auto;
 	margin-right: 2%;
 	margin-bottom: auto;
-}
-
-.welcome:after {
-	content: "";
-	display: table;
-	clear: both;
 }
 
 .recent > ul {
@@ -91,32 +113,41 @@ h2 {
 }
 
 img.profile {
-	margin-top: 10%;
-	margin-right: auto;
-	margin-bottom: auto;
-	margin-left: auto;
+	margin: 0;
+	padding-top: 20px;
 	width: 100%;
 }
 
-footer {
-	margin-top: 50px;
-	margin-bottom: auto;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-}
-
-@media (max-width: 50em) {
-	body {
-		margin-left: 2.5%;
-		max-width: 95%;
+@media (max-width: 55em) {
+	.left , .right {
+		float: none;
 	}
 	.left {
 		width: 100%;
 	}
 	.right {
-		float: left;
-		width: 30%;
-		margin-left: 36%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@media (max-device-width: 800px) {
+	.left , .right {
+		float: none;
+	}
+
+	.left {
+		width: 100%;
+	}
+	.right {
+		width: 50%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.recent > ul {
+		margin-left: 8px;
+		margin-right: 24px;
 	}
 }

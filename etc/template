@@ -13,23 +13,23 @@
 			<!--TITLE-->
 		</header>
 		<nav>
-			&#91;
-			<a href="/index.html">Home</a> &vert;
-			<a href="/blog/blog.html">Blog</a> &vert;
-			<a href="https://github.com/segf00lt">Software</a> &vert;
-			<a href="#Music">Music</a> &vert;
-			<a href="#Contact">Contact</a>
-			&#93;
+			<ul>
+				&#91;
+				<a href="/index.html">Home</a> &vert;
+				<a href="/blog/blog.html">Blog</a> &vert;
+				<a href="https://github.com/segf00lt">Software</a> &vert;
+				<a href="#Music">Music</a> &vert;
+				<a href="#Contact">Contact</a>
+				&#93;
+			</ul>
+			<hr>
 		</nav>
 		<main>
-		<hr>
 		<!--CONTENT-->
-		</hr>
 		</main>
 		<footer>
 			<hr>
-			<h3><a href="/index.html">https://joaodear.xyz</a></h3>
-			</hr>
+			<h3><a href="/index.html">joaodear.xyz</a></h3>
 		</footer>
 	</body>
 </html>
