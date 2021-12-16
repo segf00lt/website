@@ -1,3 +1,4 @@
+/* style common to all pages */
 body {
 	margin: auto;
 	background: black;
@@ -47,15 +48,6 @@ main, nav, footer {
 	max-width: 850px;
 }
 
-/* title as it appears in the index */
-.article-title {
-	font-size: 1rem;
-}
-
-.article-date {
-	font-size: 0.8rem;
-}
-
 a { text-decoration: none; }
 a:link { color: #9fc7ea; }
 a:visited { color: #9fc7ea; }
@@ -101,77 +93,5 @@ footer {
 	}
 	nav, footer, hr {
 		max-width: 100%;
-	}
-	.article-title {
-		font-size: 2.5rem;
-	}
-	.article-date {
-		font-size: 1.5rem;
-	}
-}
-
-/* index.html */
-.left {
-	float: left;
-	width: 60%;
-}
-
-.right {
-	float: right;
-	width: 30%;
-	margin-top: auto;
-	margin-right: 2%;
-	margin-bottom: auto;
-}
-
-.article-list > ul {
-	padding: 0px 0px 0px 20px;
-	list-style-position: outside;
-	list-style-type: square;
-}
-
-.article-list > ul > li {
-	padding-bottom: 5px;
-}
-
-img.profile {
-	margin: 0;
-	padding-top: 20px;
-	width: 100%;
-}
-
-@media (max-width: 55em) {
-	.left , .right {
-		float: none;
-	}
-	.left {
-		width: 100%;
-	}
-	.right {
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-	}
-}
-
-@media (max-device-width: 500px) {
-	.left , .right {
-		float: none;
-	}
-
-	.left {
-		width: 100%;
-	}
-	.right {
-		width: 50%;
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-	}
-	.article-list > ul {
-		padding: 0px 0px 0px 3vw;
-	}
-	.article-list > ul > li {
-		padding-bottom: 25px;
 	}
 }

@@ -5,5 +5,8 @@ scripts I use to manage and update it.
 
 ## TODO
 
-- Make stylesheet generic so it may be used on every page
-  (along with a page specific stylesheet if needed)
+- write contact page and placeholder for music page
+- create interface script for other scripts
+- write first article
+- write mock.sh for generating a locally linked version
+  of the site for testing purposes

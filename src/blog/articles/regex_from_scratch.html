@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="keyword" content="index,follow"/>
+		<title>
+			Regex from scratch
+		</title>
+		<link rel="stylesheet" type="text/css" href="/style.css">
+		<link rel="icon" href="/images/pulsar.gif">
+	</head>
+	<body>
+		<header>
+			<h1>Regex from scratch</h1>
+		</header>
+		<nav>
+			<ul>
+				&#91;
+				<a href="/index.html">Home</a> &vert;
+				<a href="/blog/blog.html">Blog</a> &vert;
+				<a href="https://github.com/segf00lt">Software</a> &vert;
+				<a href="#Music">Music</a> &vert;
+				<a href="#Contact">Contact</a>
+				&#93;
+			</ul>
+			<hr>
+		</nav>
+		<main>
+		<!--CONTENT-->
+		<h2>Introduction</h2>
+		<p>Around September this year I had the idea to write grep by myself.
+		This meant I would also have to implement regular expressions. Little did I
+		know, this project would turn out to be the most fun and challenging
+		undertaking of the year (up till then).</p>
+		<p>Throughout this article I'll reference the resources that helped me during this
+		project, and that I hope will help others who decide to give it a try.</p>
+		<h2>What are regular expressions <em>really</em>?</h2>
+		<p>Regular expressions, as many programmers will know, are a compact way of describing arbitrary
+		patterns of text, such as:</p>
+		<ul>
+		<li><code>a+</code> the letter 'a' one or more times</li>
+		<li><code>.*</code> any character any number of times</li>
+		<li><code>[a-zA-Z0-9_]+(\.[a-zA-Z0-9_]+)*@[a-zA-Z0-9_].(com|co\.uk|xyz|io|net|)</code> an
+		email address</li>
+		</ul>
+		<p>These expressions range from benign literal strings, to URL's, email addresses,
+		C function declarations and more. So how the hell do we implement them?</p>
+		<h2>Finite Automata</h2>
+		<p>Don't be intimidated by the name of this section. A <em>Finite Automata</em>, or
+		<em>State Machine</em>, is a computer with no memory, that can be in 1 or more
+		(we'll come back to this) of a finite number of states at a given moment.</p>
+		<p>If you've ever seen a flow chart then you kind of understand state machines.
+		Each state is connected to other states by a collection of labeled arrows. If
+		the input to the machine matches the condition of one of those arrows, the
+		machine is moved into the state that the arrow points to, and awaits more
+		input. This is done until the machine reaches the <em>end state</em> (or the <em>match state</em>
+		as we'll soon call it).</p>
+		<p>Before you continue, watch <a href="https://www.youtube.com/watch?v=vhiiia1_hC4">this</a>
+		Computerphile video for a great intuitive explanation of state machines from
+		Professor Brailsford.</p>
+		<p>Alright, now that you've heard the Professor's explanation, let's see how this
+		relates to regular expressions.</p>
+		<!--CONTENT-->
+		</main>
+		<footer>
+			<hr>
+			<h3><a href="/">joaodear.xyz</a></h3>
+		</footer>
+	</body>
+</html>

@@ -11,15 +11,14 @@ link="$3"
 date=$(date +"%b %d")
 year=$(date +"%Y")
 title=$(sed -n "s/^# \(.\+\)/\1/p" "$file" | head -n 1)
-entrie="+ [$date &#8212; $title]($link)"
+entrie="$title\t$link\tPublished $date"
 
-[[ ! -f "$index" || ! -s "$index" ]] && printf "$entrie\n## $year\n" > "$index" && exit 0
+[[ ! -f "$index" || ! -s "$index" ]] && printf "$entrie\n$year\n" > "$index" && exit 0
 
-grep -F "$entrie" "$index" && exit 1
+grep -qF "$title" "$index" && \
+	sed -i "/$title/ s/\(\tPublished [A-Za-z]\+ [0-9]\+\).*$/\1 | Modified $date/" "$index" && \
+	exit 0
 
-lines=$(wc -l < "$index")
-last=$(tail -n 1 < "$index")
+[[ "$year" == "$(tail -n 1 < "$index")" ]] && sed -i '$ d' "$index"
 
-[[ "$year" == "$(echo "$last" | sed -n "s/^## \(.\+\)/\1/p")" ]] && sed -i '$ d' "$index"
-
-printf "$entrie\n## $year\n" >> "$index"
+printf "$entrie\n$year\n" >> "$index"

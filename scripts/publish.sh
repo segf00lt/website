@@ -20,14 +20,31 @@ template="etc/template"
 
 title="Blog Index"
 
-content="$(tac "$blogindex" | md2html)"
+content="$(tac "$blogindex" | awk '\
+BEGIN { FS = "\t" } \
+/^[0-9]+$/ \
+{ \
+if(i) print "</ul>" ; \
+printf("<h2>%s</h2>\n<ul>\n", $0); \
+i = 1; \
+next \
+} \
+{ \
+li="<li><div class=\"article-title\"><a href=\"%s\">%s</a></div><div class=\"article-date\">%s</div></li>\n"; \
+sub("&vert;", "|", $3); \
+printf(li, $2, $1, $3) \
+} \
+END { print "</ul>" }' \
+)"
 
 sed -ne "s/<\!--PAGENAME-->/$title/"\
 	-ne "s/<\!--TITLE-->/<h1>$title<\/h1>/"\
 	-e "0,/<\!--CONTENT-->/p"\
 	"$template" > "$page"
 
-echo "$content" | sed -n "s/^\(.\)/\t\t\1/p" >> "$page"
+printf "\t\t<div class=\"article-list\">\n" >> "$page"
+echo "$content" | sed -n "s/^\(.\)/\t\t\t\1/p" >> "$page"
+printf "\t\t</div>\n" >> "$page"
 
 sed -n "/<\!--CONTENT-->/,\$p" "$template" >> "$page"
 

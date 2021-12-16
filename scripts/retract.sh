@@ -9,10 +9,9 @@ trap "exit 1" SIGHUP SIGINT SIGKILL SIGTERM
 
 blogindex="etc/blogindex"
 
-for article in "$@"; do
-	file=`sed -ne "s|^\+ \[.*\; $article\](/blog/articles/\(.*\.html\))|\1|p" "$blogindex"`
-	echo $file
-	sed -i "/$article/d" "$blogindex"
+for file in "$@"; do
+	[[ $file == *".md" ]] && file="${file%%'.md'}.html"
+	sed -i "/$file/d" "$blogindex"
 	rm -f "src/blog/articles/$file"
 done
 
