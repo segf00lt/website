@@ -13,7 +13,7 @@ rm -fdr 'mock' && cp -r src mock
 while read -r file; do
 	[[ "$file" == *".html" ]] && \
 		sed -i \
-		-e "s|\"/\([^\"]*\)\"|\"$dir/mock/\1\"|" \
+		-e "s|\"/\([^\"]*\)\"|\"$dir/mock/\1\"|g" \
 		-e "s|\"\($dir/mock\)/\"|\"\1/index.html\"|" \
 		"$file"
 
