@@ -50,10 +50,12 @@ main, nav, footer {
 /* title as it appears in the index */
 .article-title {
 	font-size: 1rem;
+	padding-bottom: 5px;
 }
 
 .article-date {
 	font-size: 0.8rem;
+	padding-bottom: 10px;
 }
 
 a { text-decoration: none; }
@@ -72,6 +74,12 @@ footer {
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
+}
+
+.article-list > ul {
+	padding: 0px 0px 0px 20px;
+	list-style-position: outside;
+	list-style-type: square;
 }
 
 @media (max-width: 55em) {
@@ -104,9 +112,14 @@ footer {
 	}
 	.article-title {
 		font-size: 2.5rem;
+		padding-bottom: 15px;
 	}
 	.article-date {
 		font-size: 1.5rem;
+		padding-bottom: 25px;
+	}
+	.article-list > ul {
+		padding: 0px 0px 0px 3vw;
 	}
 }
 
@@ -122,16 +135,6 @@ footer {
 	margin-top: auto;
 	margin-right: 2%;
 	margin-bottom: auto;
-}
-
-.article-list > ul {
-	padding: 0px 0px 0px 20px;
-	list-style-position: outside;
-	list-style-type: square;
-}
-
-.article-list > ul > li {
-	padding-bottom: 5px;
 }
 
 img.profile {
@@ -167,11 +170,5 @@ img.profile {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-	}
-	.article-list > ul {
-		padding: 0px 0px 0px 3vw;
-	}
-	.article-list > ul > li {
-		padding-bottom: 25px;
 	}
 }

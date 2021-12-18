@@ -2,7 +2,8 @@
 
 trap "exit 1" SIGHUP SIGINT SIGKILL SIGTERM
 
-[[ "$(pwd | sed -n "s/\(\/.\+\/\)\+\(.\+\)/\2/p")" != 'website' ]] && \
+dir="$(pwd)"
+[[ "${dir##*/}" != 'website' ]] && [[ -d "$dir/.git" ]] && \
 	echo "$0: script must be run from repo root dir" 1>&2 && exit 1
 
 for file in "$@"; do
@@ -51,10 +52,10 @@ sed -n "/<\!--CONTENT-->/,\$p" "$template" >> "$page"
 # Update recent articles section
 home="src/index.html"
 
-recent="$(echo "$content" | sed -e "/^<h2>[0-9]\+<\/h2>/d" -e "/^<\/\?ul>$/d" | head -n 4)"
+recent="$(echo "$content" | sed -e '/^<h2>[0-9]\+<\/h2>/d' -e '/^<\/\?ul>$/d' | head -n 4)"
 
-top="$(sed -n "0,/<\!--BEGIN-->/p" "$home")"
-bot="$(sed -n "/<\!--END-->/,\$p" "$home")"
+top="$(sed -n '0,/<\!--BEGIN-->/p' "$home")"
+bot="$(sed -n '/<\!--END-->/,$p' "$home")"
 printf "$top\n" > "$home"
 printf "\t\t\t\t\t$recent\n" | tr -d '\n' >> "$home"
 printf "\n" >> "$home"
