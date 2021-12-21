@@ -3,3 +3,4 @@ mock
 foo*
 bar*
 lipsum*
+src/blog/articles/*

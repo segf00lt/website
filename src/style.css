@@ -1,3 +1,10 @@
+HTML {
+	font-size: unset;
+	-webkit-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+	text-size-adjust: none;
+}
+
 body {
 	margin: auto;
 	background: black;
@@ -13,13 +20,13 @@ header {
 }
 
 header > h1 {
-	font-size: 2.5rem;
+	font-size: 28pt;
 	text-align: center;
 	color: #70966c
 }
 
 h2 {
-	font-size: 1.5rem;
+	font-size: 18pt;
 	margin-top: 8px;
 	margin-bottom: 8px;
 }
@@ -30,7 +37,7 @@ ul {
 
 main {
 	margin: auto;
-	font-size: 0.92rem;
+	font-size: 11pt;
 }
 
 nav {
@@ -40,7 +47,7 @@ nav {
 	margin-right: auto;
 	margin-bottom: 20px;
 	font-family: monospace;
-	font-size: 0.85rem;
+	font-size: 10pt;
 }
 
 main, nav, footer {
@@ -49,23 +56,31 @@ main, nav, footer {
 
 /* title as it appears in the index */
 .article-title {
-	font-size: 1rem;
+	font-size: 13pt;
 	padding-bottom: 5px;
 }
 
 .article-date {
-	font-size: 0.8rem;
+	font-size: 9pt;
 	padding-bottom: 10px;
 }
 
 a { text-decoration: none; }
 a:link { color: #9fc7ea; }
 a:visited { color: #9fc7ea; }
-a:hover { color: #6f97ba; }
+a:hover { color: #6f97ba; border-color: #6f97ba; }
 
 nav ul {
 	padding: 0px 0px 0px 0px;
 	list-style-type: none;
+}
+
+nav a {
+	border-color: #9fc7ea;
+	border-style: none none solid none;
+	border-width: 1pt;
+	margin: 1pt;
+	padding: 2pt;
 }
 
 footer {
@@ -83,43 +98,8 @@ footer {
 }
 
 @media (max-width: 55em) {
-	body {
+	main , hr {
 		max-width: 95%;
-	}
-}
-
-@media (max-device-width: 500px) {
-	header h1 {
-		font-size: 5rem;
-	}
-	h2 {
-		font-size: 3rem;
-	}
-	main {
-		font-size: 2.0rem;
-	}
-	nav {
-		font-size: 1.5rem;
-	}
-	footer {
-		font-size: 2rem;
-	}
-	main {
-		max-width: 95%;
-	}
-	nav, footer, hr {
-		max-width: 100%;
-	}
-	.article-title {
-		font-size: 2.5rem;
-		padding-bottom: 15px;
-	}
-	.article-date {
-		font-size: 1.5rem;
-		padding-bottom: 25px;
-	}
-	.article-list > ul {
-		padding: 0px 0px 0px 3vw;
 	}
 }
 
@@ -131,16 +111,13 @@ footer {
 
 .right {
 	float: right;
-	width: 30%;
-	margin-top: auto;
-	margin-right: 2%;
-	margin-bottom: auto;
+	margin: auto;
+	max-width: 255px;
 }
 
 img.profile {
-	margin: 0;
 	padding-top: 20px;
-	width: 100%;
+	max-width: 255px;
 }
 
 @media (max-width: 55em) {
@@ -152,23 +129,6 @@ img.profile {
 	}
 	.right {
 		display: block;
-		margin-left: auto;
-		margin-right: auto;
-	}
-}
-
-@media (max-device-width: 500px) {
-	.left , .right {
-		float: none;
-	}
-
-	.left {
-		width: 100%;
-	}
-	.right {
-		width: 50%;
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
+		margin: auto;
 	}
 }
