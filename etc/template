@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="keyword" content="index,follow">
-		<meta name="viewport" content="width=device-width">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>
 			<!--PAGENAME-->
 		</title>
@@ -13,24 +13,20 @@
 	<body>
 		<header>
 			<!--TITLE-->
+			<nav>
+				<ul>
+					<a href="/index.html"><li>Home</li></a> 
+					<a href="/blog/blog.html"><li>Blog</li></a> 
+					<a href="https://github.com/segf00lt"><li>Software</li></a> 
+					<a href="#Music"><li>Music</li></a> 
+					<a href="#Contact"><li>Contact</li></a> 
+				</ul>
+			</nav>
 		</header>
-		<nav>
-			<ul>
-				&vert;
-				<a href="/index.html">Home</a> &vert;
-				<a href="/blog/blog.html">Blog</a> &vert;
-				<a href="https://github.com/segf00lt">Software</a> &vert;
-				<a href="#Music">Music</a> &vert;
-				<a href="#Contact">Contact</a>
-				&vert;
-			</ul>
-			<hr>
-		</nav>
 		<main>
 		<!--CONTENT-->
 		</main>
 		<footer>
-			<hr>
 			<h3><a href="/">joaodear.xyz</a></h3>
 		</footer>
 	</body>
