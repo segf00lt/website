@@ -4,6 +4,7 @@
 		<meta charset="UTF-8">
 		<meta name="keyword" content="index,follow">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="color-scheme" content="dark light">
 		<title>
 			<!--PAGENAME-->
 		</title>
@@ -18,8 +19,8 @@
 					<a href="/index.html"><li>Home</li></a> 
 					<a href="/blog/blog.html"><li>Blog</li></a> 
 					<a href="https://github.com/segf00lt"><li>Software</li></a> 
-					<a href="#Music"><li>Music</li></a> 
-					<a href="#Contact"><li>Contact</li></a> 
+					<a href="/music/music.html"><li>Music</li></a> 
+					<a href="/contact.html"><li>Contact</li></a> 
 				</ul>
 			</nav>
 		</header>

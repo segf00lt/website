@@ -5,5 +5,4 @@ scripts I use to manage and update it.
 
 ## TODO
 
-- write contact page and placeholder for music page
 - write first article

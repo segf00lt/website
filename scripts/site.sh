@@ -26,7 +26,7 @@ function mock() {
 function sync {
 	local files="$@"
 	[[ "$#" == 0 ]] && files=$WEBSITE_PATH/src/*
-	rsync -rv $files 'joaodear@joaodear.xyz:~/joaodear.xyz/' || exit 1
+	rsync --exclude=*'save.vim'* -rv $files 'joaodear@joaodear.xyz:~/joaodear.xyz/' || exit 1
 }
 
 function getargs() {

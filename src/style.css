@@ -38,30 +38,6 @@ ul {
 	list-style-type: square;
 }
 
-main {
-	margin: auto;
-	font-size: 11pt;
-}
-
-main, nav, footer {
-	max-width: 850px;
-}
-
-.article-title {
-	font-size: 13pt;
-	padding-bottom: 5px;
-}
-
-.article-date {
-	font-size: 9pt;
-	padding-bottom: 10px;
-}
-
-a { text-decoration: none; }
-a:link { color: #9fc7ea; }
-a:visited { color: #9fc7ea; }
-a:hover { color: #6f97ba; border-color: #6f97ba; }
-
 nav {
 	text-align: center;
 	margin-top: auto;
@@ -101,6 +77,59 @@ nav a:hover {
 	border-color: #6f97ba;
 }
 
+main {
+	margin: auto;
+	font-size: 11pt;
+}
+
+main, nav, footer {
+	max-width: 850px;
+}
+
+.article-title {
+	font-size: 13pt;
+	padding-bottom: 5px;
+}
+
+.article-date {
+	font-size: 9pt;
+	padding-bottom: 10px;
+}
+
+.article-list > ul {
+	padding: 0px 0px 0px 20px;
+	list-style-position: outside;
+	list-style-type: square;
+}
+
+a {
+	text-decoration: none;
+}
+a:link {
+	color: #9fc7ea; 
+}
+a:visited {
+	color: #9fc7ea; 
+}
+a:hover {
+	color: #6f97ba; border-color: #6f97ba; 
+}
+
+code, pre {
+	color: #e5da00;
+}
+
+pre {
+	white-space: pre-wrap;
+	padding: 12px;
+	border-color: #e5da00;
+	font-size: 10pt;
+	border-style: solid;
+	border-width: 2.2px;
+	border-radius: 15px;
+	text-align: left;
+}
+
 footer {
 	margin-top: 50px;
 	margin-bottom: auto;
@@ -111,14 +140,8 @@ footer {
 	border-top-width: 2px;
 }
 
-.article-list > ul {
-	padding: 0px 0px 0px 20px;
-	list-style-position: outside;
-	list-style-type: square;
-}
-
 @media (max-width: 55em) {
-	main , hr {
+	main {
 		max-width: 95%;
 	}
 }

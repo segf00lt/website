@@ -7,7 +7,22 @@ file=$1
 
 template="etc/template"
 
-md2html < $file > tmp
+awk '\
+BEGIN { flag=0; acc=""; count=1 } \
+/```pikchr$/ { flag=1; next } \
+/```$/ { \
+flag=0; \
+print "<div class=\"diagram" count "\">"; \
+print acc | "pikchr --svg-only - | head -n -1"; \
+close("pikchr --svg-only - | head -n -1"); \
+print "</div>"; \
+acc=""; \
+next; \
+} \
+flag==0{print $0;next} \
+flag==1{acc = acc (acc == "" ? "" : ";") $0;next}' \
+< $file | md2html > tmp
+
 title=`sed -n "s/<h1>\(.*\)<\/h1>/\1/p" tmp`
 body=`tail -n +2 tmp`
 rm tmp
@@ -17,6 +32,6 @@ sed -ne "s/<\!--PAGENAME-->/$title/"\
 	-e "0,/<\!--CONTENT-->/p"\
 	"$template"
 
-printf "$body\n" | sed -n "s/^\(.\)/\t\t\1/gp"
+echo "$body"
 
 sed -n "/<\!--CONTENT-->/,\$p" "$template"
