@@ -1,4 +1,5 @@
 *save.vim*
+*.vim
 src/blog/articles/*
 mock
 foo*
