@@ -17,6 +17,7 @@ print acc | "pikchr --svg-only - | head -n -1"; \
 close("pikchr --svg-only - | head -n -1"); \
 print "</div>"; \
 acc=""; \
+++count; \
 next; \
 } \
 flag==0{print $0;next} \
