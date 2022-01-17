@@ -17,4 +17,17 @@ for file in "$@"; do
 	rm -f "src/blog/articles/$file"
 done
 
+awk '\
+BEGIN { i = 0; } \
+/[0-9][0-9][0-9][0-9]$/ { \
+if(i != 0) print $0; \
+i = 0; \
+next; \
+} \
+{ \
+print $0; ++i; next; \
+} ' < "$blogindex" > tmp
+
+mv tmp "$blogindex"
+
 ./scripts/publish.sh

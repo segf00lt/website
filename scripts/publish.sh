@@ -43,9 +43,9 @@ sed -ne "s/<\!--PAGENAME-->/$title/"\
 	-e "0,/<\!--CONTENT-->/p"\
 	"$template" > "$page"
 
-printf "\t\t<div class=\"article-list\">\n" >> "$page"
-echo "$content" | sed -n "s/^\(.\)/\t\t\t\1/p" >> "$page"
-printf "\t\t</div>\n" >> "$page"
+echo "<div class=\"article-list\">" >> "$page"
+echo "$content" >> "$page"
+echo "</div>" >> "$page"
 
 sed -n "/<\!--CONTENT-->/,\$p" "$template" >> "$page"
 
@@ -56,7 +56,7 @@ recent="$(echo "$content" | sed -e '/^<h2>[0-9]\+<\/h2>/d' -e '/^<\/\?ul>$/d' | 
 
 top="$(sed -n '0,/<\!--BEGIN-->/p' "$home")"
 bot="$(sed -n '/<\!--END-->/,$p' "$home")"
-printf "$top\n" > "$home"
-printf "\t\t\t\t\t$recent\n" | tr -d '\n' >> "$home"
-printf "\n" >> "$home"
-printf "$bot" >> "$home"
+echo "$top" > "$home"
+echo "$recent" | tr -d '\n' >> "$home"
+echo >> "$home"
+echo "$bot" >> "$home"

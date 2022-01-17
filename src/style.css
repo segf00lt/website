@@ -80,6 +80,7 @@ nav a:hover {
 main {
 	margin: auto;
 	font-size: 11pt;
+	line-height: 1.75;
 }
 
 main, nav, footer {
@@ -96,10 +97,15 @@ main, nav, footer {
 	padding-bottom: 10px;
 }
 
+.article-list {
+	line-height: initial;
+}
+
 .article-list > ul {
 	padding: 0px 0px 0px 20px;
 	list-style-position: outside;
 	list-style-type: square;
+	margin: 8px 0px 14.6px;
 }
 
 a {
@@ -117,17 +123,36 @@ a:hover {
 
 code, pre {
 	color: #e5da00;
+	font-size: 10pt;
 }
 
 pre {
 	white-space: pre-wrap;
 	padding: 12px;
 	border-color: #e5da00;
-	font-size: 10pt;
 	border-style: solid;
 	border-width: 2.2px;
 	border-radius: 15px;
 	text-align: left;
+}
+
+.note {
+	background-color: #555555;
+	border-color: #f7dd8a;
+	border-style: solid;
+	border-width: 2.2px;
+	color: #f7dd8a;
+	padding: 4px 15px;
+}
+
+.note > h3 {
+	margin-top: 5px;
+	font-size: 13pt;
+}
+
+div[class^="diagram"] {
+	text-align: center;
+	margin: 30px 0px;
 }
 
 footer {

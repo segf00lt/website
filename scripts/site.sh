@@ -2,11 +2,11 @@
 
 WEBSITE_PATH=
 USAGE='Usage: site OPTION [ARGUMENTS]
-   -p [ARGUMENTS] : publish
-   -r [ARGUMENTS] : retract
-   -m [ARGUMENTS] : mock
-   -s [ARGUMENTS] : sync
-   -h : help
+-p [ARGUMENTS] : publish
+-r [ARGUMENTS] : retract
+-m [ARGUMENTS] : mock
+-s [ARGUMENTS] : sync
+-h : help
 '
 declare -a args=()
 declare n=0

@@ -7,22 +7,7 @@ file=$1
 
 template="etc/template"
 
-awk '\
-BEGIN { flag=0; acc=""; count=1 } \
-/```pikchr$/ { flag=1; next } \
-/```$/ { \
-flag=0; \
-print "<div class=\"diagram" count "\">"; \
-print acc | "pikchr --svg-only - | head -n -1"; \
-close("pikchr --svg-only - | head -n -1"); \
-print "</div>"; \
-acc=""; \
-++count; \
-next; \
-} \
-flag==0{print $0;next} \
-flag==1{acc = acc (acc == "" ? "" : ";") $0;next}' \
-< $file | md2html > tmp
+./scripts/mdpp.awk < $file | md2html > tmp
 
 title=`sed -n "s/<h1>\(.*\)<\/h1>/\1/p" tmp`
 body=`tail -n +2 tmp`
