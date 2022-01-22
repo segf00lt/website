@@ -137,11 +137,8 @@ pre {
 }
 
 .note {
-	background-color: #555555;
-	border-color: #f7dd8a;
 	border-style: solid;
-	border-width: 2.2px;
-	color: #f7dd8a;
+	border-width: 1px;
 	padding: 4px 15px;
 }
 

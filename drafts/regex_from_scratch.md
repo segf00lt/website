@@ -3,8 +3,8 @@
 ## Introduction
 
 This article is supposed to be my contribution to the discussion of regular
-expressions in a series of articles by [Russ Cox](https://swtch.com/~rsc/).
-I encountered the articles in trying to write a grep implementation myself, without
+expressions in a series of articles by [Russ Cox](https://swtch.com/~rsc/),
+which I encountered in trying to write a grep implementation myself, without
 the aid of a regex library
 (the code for which can be found [here](https://github.com/segf00lt/jgrep)).
 
@@ -52,6 +52,10 @@ __&#92;+__ &#8212; force the literal version of a character (plus sign in this c
 
 Try and work out the example expressions given above (especially if you're new
 to regular expressions).
+
+Note that we'll be ignoring syntax like character classes, line anchors, escaped
+characters and wild cards, because they have the same precedence as literals
+and the details for implementing them aren't important for this article.
 
 ## Finite Automata
 
@@ -207,7 +211,7 @@ Both of these machines _must_, as before, match the correct characters in order
 to reach the match state. But unlike the first machine, which must read a _particular_
 input character before moving to a new state (and thus could only be in 1 state at a
 time), the second machine can transition without reading _any_ input, and therefor
-could transition to more than one state (at most 2 in this case).
+could move along either one of the arrows at s<sub>0</sub>.
 
 First question: which of these machines is easier to build? Imagine you're
 reading the regexp `abc|abd` character by character, trying to parse it. If you
@@ -224,15 +228,16 @@ Specifically, seeing as the first 2 arrows are unlabeled (meaning we may
 follow them without taking input) and the machine has no way of knowing in
 advance what characters it will see, which branch should it choose to follow?
 The great Ken Thompson gave quite an interesting answer in his 1968 CACM paper:
-choose both.
+both.
 
 You could think of this approach as a breadth-first-search. Alternatively, the
 regex implementations used by Perl, Python, Ruby and more do a
 depth-first-search, and have to backtrack if the branch they choose turns out
-to be wrong. As Russ Cox shows in
-[&ldquo;Regular Expression Matching Can Be Simple And Fast&rdquo;](https://swtch.com/~rsc/regexp/regexp1.html),
-Thompson's BFS approach is stupidly fast compared with the DFS algorithms used
-in most modern languages.
+to be wrong. Thompson's BFS approach is
+[_stupidly_](https://swtch.com/~rsc/regexp/grep1p.png) fast compared with the DFS
+algorithms used in most modern languages.
+
+I'll explain the regex search algorithm in detail later in this article.
 
 ```note
 It's good to know that while DFAs take longer to compile, they execute much
@@ -248,12 +253,8 @@ compiling the expressions and more time executing them.
 
 ## NFAs from Regular Expressions
 
-Before we look at the actual implementation, I'll take you through building an
-NFA diagram from a regexp.
-
-Also, we'll be ignoring syntax like character classes, line anchors, escaped
-characters and wild cards, because they have the same precedence as literals
-and the details for implementing them aren't important for this article.
+Before we look at the actual implementation, we'll look at the relationship
+between NFA diagram and regexp.
 
 Here are the NFA equivalents of the regex operators.
 
@@ -333,10 +334,8 @@ arrow right
 arc -> from last circle.n to F6.n
 ```
 
-```note
 The grouping operator doesn't appear in this list because (as in most languages)
 it's just a way of overriding precedence.
-```
 
 As an example, let's build the expression `a(bb)+(c|d)?`.
 It's read as :
@@ -461,18 +460,14 @@ move to 0.15 above last spline.n
 
 ## Implementation
 
-This article's implementation will be in Python (instead of in C as in Russ
-Cox's articles or in my own implementation mentioned in the introduction),
-because unlike the Cox implementation my one doesn't require pointers, and
-because in Python it'll have less boilerplate code.
-
-Our implementation can be broken into 3 major components.
+This article's implementation will be in Python, and can be broken into 3 major
+components.
 
 1. A parser.
-2. Code to turn the regexps into NFAs (and therefor an internal representation of NFAs).
-3. And a version of Ken Thompson's breadth-first-search algorithm.
+2. Code to turn the regexps into NFAs (and an internal representation of NFAs).
+3. A version of Ken Thompson's breadth-first-search algorithm.
 
-We'll tackle each of these components in the next three sections.
+We'll tackle each of these components in the following sections.
 
 ## Parsing
 
@@ -487,15 +482,10 @@ is one, pop off however many operands that operator takes
 (only to in the case of `+`) from stack __A__ and pile the result of the operation
 back onto __A__.
 
+Unlike in Thompson's paper though, we'll be using &rdquo;&&ldquo; instead of &rdquo;.&ldquo; as an explicit
+concatenation operator.
+
 The algorithm for converting a _infix expression_
 (where operators are in between operands) to a _postfix expression_
-is called the _shunting-yard algorithm_, created by a Dutch computer
-scientist named [Edsger Dijkstra](https://en.wikipedia.org/wiki/Edsger_Dijkstra).
-
-Here's a python implementation of shunting-yard for evaluating regexps.
-
-```
-# put python code here
-
-print("hello world")
-```
+is called the
+[_shunting-yard algorithm_](https://en.wikipedia.org/wiki/Shunting-yard_algorithm).
