@@ -10,13 +10,12 @@ dir="$(pwd)"
 
 rm -fdr 'mock' && cp -r src mock
 
+./scripts/retract.sh "$@"
+
 while read -r file; do
-	[[ "$file" == *".html" ]] && \
-		sed -i \
+	sed -i \
 		-e "s|\"/\([^\"]*\)\"|\"$dir/mock/\1\"|g" \
 		-e "s|\"\($dir/mock\)/\"|\"\1/index.html\"|" \
 		"$file"
-
-	# make mock directory contents read only
-	chmod 444 "$file"
-done <<< "$(find mock -type f)"
+done <<< "$(find mock -type f -name '*.html*')"
+chmod -R 444 mock/*

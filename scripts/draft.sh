@@ -9,7 +9,7 @@ template="etc/template"
 
 ./scripts/mdpp.awk < $file | md2html > tmp
 
-title=`sed -n "s/<h1>\(.*\)<\/h1>/\1/p" tmp`
+title=`sed -n "s/<h1>\(.*\)<\/h1>/\1/p" tmp | head -n 1`
 body=`tail -n +2 tmp`
 rm tmp
 
