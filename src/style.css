@@ -73,8 +73,24 @@ nav a:link, nav a:visited {
 }
 
 nav a:hover {
-	color: #6f97ba;
-	border-color: #6f97ba;
+	color: #aaaaaa;
+	border-color: #aaaaaa;
+}
+
+main h1 a:link, main h1 a:visited,
+main h2 a:link, main h2 a:visited,
+main h3 a:link, main h3 a:visited,
+main h4 a:link, main h4 a:visited,
+main h5 a:link, main h5 a:visited {
+	color: inherit;
+}
+
+main h1 a:hover,
+main h2 a:hover,
+main h3 a:hover,
+main h4 a:hover,
+main h5 a:hover {
+	color: #aaaaaa;
 }
 
 main {
@@ -88,7 +104,7 @@ main, nav, footer {
 }
 
 .article-title {
-	font-size: 13pt;
+	font-size: 12pt;
 	padding-bottom: 5px;
 }
 

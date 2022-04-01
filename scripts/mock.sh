@@ -18,4 +18,3 @@ while read -r file; do
 		-e "s|\"\($dir/mock\)/\"|\"\1/index.html\"|" \
 		"$file"
 done <<< "$(find mock -type f -name '*.html*')"
-chmod -R 444 mock/*

@@ -5,5 +5,4 @@ scripts I use to manage and update it.
 
 ## TODO
 
-- Separate mock blog index from main index
-  (modify retract.sh, mock.sh and publish.sh)
+- Make `sed` commands more resilient to special characters in the input
