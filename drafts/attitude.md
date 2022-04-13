@@ -24,7 +24,7 @@ public policy. Heaven forbid that we (I and the afore mentioned characters, of
 which there is at least one present on the jetty at **literally every hour in
 the day**) take it upon ourselves to look after newcomers. No no no, _ordinary
 people_ cannot be trusted to do such a thing, these matters need to be handled
-properly by _&rdquo;experts&ldquo;_ and the shining members of the
+properly by _&rdquo;experts&ldquo;_ appointed by the shining members of the
 [&rdquo;Professional Managerial Class&ldquo;](https://geohot.github.io/blog/jekyll/update/2021/09/28/class-warfare.html)
 
 This attitude is quite pervasive nowadays, especially where I live. It's the
@@ -46,7 +46,7 @@ externally. After work they go home to _Netflix and Chill_, simp for Twitch
 streamers, go to the bar and have a beer, or engage in some other passively
 consuming activity. They toil only for the purposes of others, never their own.
 And if there's no direct or immediate reward in something you can forget about
-them doing it, even if it would benefit them indirectly or in the future on.
+them doing it, even if it would benefit them indirectly or in the future.
 Their [Time Preference](https://en.wikipedia.org/wiki/Time_preference) is much
 too high for that.
 
@@ -58,7 +58,7 @@ the upkeep of society and the pursuit of adventure.
 A good rule of thumb for escaping this mindset: whenever you think
 &rdquo;Wouldn't it be nice if _blah blah blah_ existed&ldquo; or &rdquo;Things
 would be so much better if someone did _such and such_&ldquo;, don't wait for
-anyone&#8212;**go and do it yourself**.
+anyone&#8212;**go and do it**.
 
 Also, for a red pill on the decivilising effects of these structures and idea
 of Natural Order, read the first two chapters of

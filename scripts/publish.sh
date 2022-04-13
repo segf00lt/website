@@ -16,7 +16,7 @@ done >/dev/null
 
 # Update blog index page
 blogindex="etc/blogindex"
-page="src/blog/blog.html"
+page="src/blog/index.html"
 template="etc/template"
 
 title="Blog Index"
