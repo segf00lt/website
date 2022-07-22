@@ -5,7 +5,7 @@ One morning, I  was on the jetty and overheard a conversation between a man
 nicknamed _Bigode_ (Portuguese for moustache), and another man. Bigode was
 telling him about when the jetty used to have two long planks at it's end that
 allowed people to jump and dive easily, landing in a sandy patch amid the rocks
-below the jetty. Back then, Bigode told the man, many more people came to the
+below. Back then, Bigode told the man, many more people came to the
 jetty, and, naturally, among these people were some idiots. Occasionally, one
 of these idiots would jump off without knowing how to swim, how to dive, or
 maybe while drunk, and have an accident. Eventually these accidents motivated
@@ -25,7 +25,7 @@ which there is at least one present on the jetty at **literally every hour in
 the day**) take it upon ourselves to look after newcomers. No no no, _ordinary
 people_ cannot be trusted to do such a thing, these matters need to be handled
 properly by _&rdquo;experts&ldquo;_ appointed by the shining members of the
-[&rdquo;Professional Managerial Class&ldquo;](https://geohot.github.io/blog/jekyll/update/2021/09/28/class-warfare.html)
+[&rdquo;_Professional Managerial Class_&ldquo;](https://geohot.github.io/blog/jekyll/update/2021/09/28/class-warfare.html)
 
 This attitude is quite pervasive nowadays, especially where I live. It's the
 attitude of those who haven't ever created anything by themselves, _for
