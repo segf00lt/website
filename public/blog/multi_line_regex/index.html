@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Multi-Line Regular Expressions - Is $ Really an Assertion? | Joao Dear</title>
+	<link rel="canonical" href="https://joaodear.xyz">
+	<link rel='alternate' type='application/rss+xml' title="Joao Dear RSS" href='/index.xml'>
+	<link rel='stylesheet' type='text/css' href='/style.css'>
+	<link rel="icon" href="/pulsar.gif">
+	<meta name="description" content="If you&rsquo;ve programmed for any amount of time you probably know about regular expressions, the terse, sometimes unreadable, powerful syntax for describing arbitrary patterns of text. They can match any sort of pattern, be it a URL, an email address or a C function declaration.
+However, despite their arbitrary matching power, most implementations and most programs that use them are implicitly limited to doing single line matches. You&rsquo;ll become acutely aware of this if you try to use UNIX core utilities to do any kind of simple parsing (preprocessing HTML or Markdown for example).">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="color-scheme" content="dark light">
+	<meta name="robots" content="index, follow">
+	<meta charset="utf-8">
+</head>
+<body>
+<header>
+	<h1>Multi-Line Regular Expressions - Is $ Really an Assertion?</h1>
+	<nav>
+	<ul>
+		<a href="/index.html"><li>Home</li></a>
+		<a href="/blog"><li>Blog</li></a>
+		<a href="https://github.com/segf00lt"><li>Software</li></a>
+		<a href="/music"><li>Music</li></a>
+		<a href="/contact"><li>Contact</li></a>
+	</ul>
+</nav>
+
+</header>
+<main>
+<p>If you&rsquo;ve programmed for any amount of time you probably know about
+regular expressions, the terse, sometimes unreadable, powerful syntax
+for describing arbitrary patterns of text. They can match any sort of
+pattern, be it a URL, an email address or a C function declaration.</p>
+<p>However, despite their arbitrary matching power, most implementations and most
+programs that use them are implicitly limited to doing single line matches.
+You&rsquo;ll become acutely aware of this if you try to use UNIX core utilities to do
+any kind of simple parsing (preprocessing HTML or Markdown for example). Very
+quickly you&rsquo;ll turn to awk, annoyed at the fact that sed or grep are unable to
+accomplish such a simple task.</p>
+<p>Recently, I discovered Rob Pike&rsquo;s article
+<a href="http://doc.cat-v.org/bell_labs/structural_regexps/"><em>structural regular expressions</em></a>,
+which tackles this very problem, and was quite intrigued.</p>
+<p>The solution he provides is beautifully simple. Instead of tools like grep,
+sed, awk, diff etc. reading a file one line at a time, make them read one
+<em>byte</em> at a time. This way, the implicit structure normally imposed on files
+and streams by these tools disappears, and the user can provide their own.</p>
+<p>Inspired by Pike&rsquo;s article, I have decided to take a crack at redesigning some
+core utilities with the afore mentioned limitations removed. And despite having
+just started this project, I&rsquo;ve found what I&rsquo;ll argue is another curious
+instance of implicit structure in the implementation of regular expressions:
+the end-of-line assertion or <strong>$</strong>.</p>
+<p>In a regular expression match function (or at least the ones I&rsquo;ve looked at)
+<strong>^</strong> and <strong>$</strong> cause a skip to the next element of the expression without
+consuming a character in the input, whenever what they assert is true. This
+behaviour is semantically correct, <strong>^</strong> and <strong>$</strong> just ask the question
+”Am I at the beginning of a line?“ or ”Am I at the end of a
+line?“. So, given this behaviour, when looking at the string ”foo
+bar“ the expression ”^[a-z ]+$“ would return a match. But
+what about the expression ”stupid\.$Kelly“ and the string
+”Keep it simple, stupid.\nKelly Johnson“? Surprisingly, it won&rsquo;t
+match.</p>
+<p>The problem isn&rsquo;t the newline character because the string ”foo bar\n“
+would be matched by the first expression just fine. So why the heck won&rsquo;t it work?</p>
+<p>Let&rsquo;s step through the execution of expression 2.</p>
+<ul>
+<li>Skip to the beginning of ”stupid.“ and match
+<strong>s</strong>, <strong>t</strong>, <strong>u</strong>, <strong>p</strong>, <strong>i</strong>, <strong>d</strong> and a literal dot.</li>
+<li>Now we&rsquo;re at <strong>\n</strong> in the string and <strong>$</strong> in the expression.</li>
+<li>The end-of-line assertion succeeds.</li>
+<li>We move to the next element in the expression <strong>K</strong>.</li>
+</ul>
+<p>See the problem? The assertion only moves you along in the expression,
+<em>not in the string</em>. So, after the <strong>$</strong> assert succeeds we try and match
+<strong>K</strong>, but we&rsquo;re still at the newline character in the string. How do we fix
+this you ask? It&rsquo;s simple, make <strong>$</strong> consume a character.</p>
+<p>”But João“ you exclaim, ”it&rsquo;s semantically incorrect for an
+assertion to consume a character!“<br>
+To this I say: <em>Is <strong>$</strong> really an assertion?</em><br>
+I would argue that it <em>isn&rsquo;t</em>, or rather that it shouldn&rsquo;t be treated the same
+as <strong>^</strong>.</p>
+<p>When asserting a beginning-of-line, you need to check that either you&rsquo;re at the
+beginning of the string, or that the last character you looked at was a newline.
+Notice that this has <em>nothing</em> to do with the current character in the string, so
+it would be wrong to walk along to the next character.
+On the other hand, when asserting an end-of-line, you need to check that either
+you&rsquo;re at the end of the string, or that the character you&rsquo;re <em>currently</em>
+looking at is a null terminator or a newline. In the case of <strong>$</strong>, it <em>does</em>
+matter what the current character in the string is, so why should it not behave
+as though it matches something?</p>
+<p>Using standard behaviour, a <strong>$</strong> assert becomes completely useless unless you
+only put it at the end of the expression. So trying to check for an empty line
+somewhere in the middle of the expression, for example, has to be done with
+”^\n“, instead of ”^$“. Using our new behaviour, the
+<strong>$</strong> actually becomes useful in multi-line regular expressions and makes them
+much more convenient to type, more syntactically consistent and more meaningful.</p>
+
+</main>
+<footer>
+<div id="nextprev">
+<div id="prevart"><a href="/blog/you_arent_what_you_do/"><b>&lt;=</b></a></div>
+<div id="nextart"><a href="/blog/attitude/"><b>=&gt;</b></a></div>
+</div>
+<h3><a href="https://joaodear.xyz"><b>joaodear.xyz</b></a></h3>
+</footer>
+</body>
+</html>
+

@@ -1,0 +1,8 @@
+baseURL = 'https://joaodear.xyz'
+languageCode = 'en-us'
+title = 'Joao Dear'
+theme = 'joao'
+[markup.goldmark.renderer]
+unsafe = true
+[params]
+favicon = "/pulsar.gif"
