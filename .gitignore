@@ -6,3 +6,5 @@ foo*
 bar*
 lipsum*
 src/blog/articles/*
+themes/lugo
+.hugo_build.lock

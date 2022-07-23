@@ -1,0 +1,26 @@
+<div class="article-list">
+{{ $prev := "" }}
+{{ $cur := "" }}
+{{ range (where .Site.RegularPages "Section" "blog") }}
+{{ $cur = .Date.Format "2006" }}
+
+{{ if ne $cur $prev }}
+	{{ if ne $prev "" }}
+	</ul>
+	{{ end }}
+	<h2>{{ $cur }}</h2>
+	<ul>
+	{{ $prev = $cur }}
+{{ end }}
+
+<li>
+<div class="article-title">
+<a href="{{ .RelPermalink }}">{{ .Title }}</a>
+</div>
+<div class="article-date">
+<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">Published {{ .Date.Format "Jan 2" }}</time>
+</div>
+</li>
+{{ end }}
+</ul> <!-- must close list at end of loop -->
+</div>

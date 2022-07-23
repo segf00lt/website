@@ -1,0 +1,8 @@
+title = "Joao Dear"
+baseURL = 'https://joaodear.xyz'
+languageCode = 'en-us'
+
+[params]
+  # "relatedtext" is the text that appears above the tag list at the bottom of pages.
+  #relatedtext = "Related:"
+  favicon = "/pulsar.gif"

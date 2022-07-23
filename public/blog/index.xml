@@ -1,0 +1,287 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+	<title>Joao Dear</title>
+	<link>https://joaodear.xyz/blog/</link>
+	<description>Recent content in Blog Index on Joao Dear</description>
+	<generator>Hugo -- gohugo.io</generator>
+	<language>en-us</language>
+	<lastBuildDate>Tue, 12 Apr 2022 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://joaodear.xyz/blog/index.xml" rel="self" type="application/rss+xml" />
+	
+	
+	<item>
+		<title>The Attitude</title>
+		<link>https://joaodear.xyz/blog/attitude/</link>
+		<pubDate>Tue, 12 Apr 2022 00:00:00 +0000</pubDate>
+		
+		<guid>https://joaodear.xyz/blog/attitude/</guid>
+		<description>&lt;p&gt;There&amp;rsquo;s a jetty near where I live that people like to jump and dive off of.
+One morning, I  was on the jetty and overheard a conversation between a man
+nicknamed &lt;em&gt;Bigode&lt;/em&gt; (Portuguese for moustache), and another man. Bigode was
+telling him about when the jetty used to have two long planks at it&amp;rsquo;s end that
+allowed people to jump and dive easily, landing in a sandy patch amid the rocks
+below the jetty. Back then, Bigode told the man, many more people came to the
+jetty, and, naturally, among these people were some idiots. Occasionally, one
+of these idiots would jump off without knowing how to swim, how to dive, or
+maybe while drunk, and have an accident. Eventually these accidents motivated
+the local government to have someone saw off the planks.&lt;/p&gt;
+&lt;p&gt;Despite this attempt at stopping idiots from having accidents however, Bigode
+says he still see&amp;rsquo;s these accidents happen, and suggests that instead, the
+local government should station two guards at the jetty to watch for idiots.
+With all due respect to Bigode, this is a stupid idea.&lt;/p&gt;
+&lt;p&gt;What makes it stupid isn&amp;rsquo;t having someone guard the jetty and take care of
+those who dive from it, that&amp;rsquo;s actually a much better idea than sawing off the
+planks. What makes it stupid is the notion that such a function needs to be
+delegated to a pair of specialized professionals and be made &lt;em&gt;official&lt;/em&gt; through
+public policy. Heaven forbid that we (I and the afore mentioned characters, of
+which there is at least one present on the jetty at &lt;strong&gt;literally every hour in
+the day&lt;/strong&gt;) take it upon ourselves to look after newcomers. No no no, &lt;em&gt;ordinary
+people&lt;/em&gt; cannot be trusted to do such a thing, these matters need to be handled
+properly by &lt;em&gt;”experts“&lt;/em&gt; appointed by the shining members of the
+&lt;a href=&#34;https://geohot.github.io/blog/jekyll/update/2021/09/28/class-warfare.html&#34;&gt;”Professional Managerial Class“&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This attitude is quite pervasive nowadays, especially where I live. It&amp;rsquo;s the
+attitude of those who haven&amp;rsquo;t ever created anything by themselves, &lt;em&gt;for
+themselves&lt;/em&gt;. Those who are passengers in their own lives. Those who grew up
+inside carefully structured environments that handed them goals and motivation
+on a silver platter, and were taught that the right thing was to stay within
+the structure, and that everyone outside is either a dreg or just plain
+unsuccessful—that without that structure things &lt;em&gt;just don&amp;rsquo;t work&lt;/em&gt;,
+because people can&amp;rsquo;t be trusted to govern themselves. Thus, due to their
+upbringing, they&amp;rsquo;re unable to fathom that people &lt;em&gt;can in fact&lt;/em&gt; be self-driven
+and would be able to thrive outside such an environment. Any suggestion of such
+a possibility is dismissed as being naive. The funny thing is that, in their
+case, they&amp;rsquo;re actually right. People like this &lt;em&gt;are in fact&lt;/em&gt; incapable of
+self-government, due to how they&amp;rsquo;ve been molly-coddled their whole lives. And
+it&amp;rsquo;s not even that these people are lazy in some way, many are actually quite
+hard working, but they don&amp;rsquo;t do anything unless told or forced to do so
+externally. After work they go home to &lt;em&gt;Netflix and Chill&lt;/em&gt;, simp for Twitch
+streamers, go to the bar and have a beer, or engage in some other passively
+consuming activity. They toil only for the purposes of others, never their own.
+And if there&amp;rsquo;s no direct or immediate reward in something you can forget about
+them doing it, even if it would benefit them indirectly or in the future.
+Their &lt;a href=&#34;https://en.wikipedia.org/wiki/Time_preference&#34;&gt;Time Preference&lt;/a&gt; is much
+too high for that.&lt;/p&gt;
+&lt;p&gt;Not just any structure can bring this out in people. Only those that
+systematically punish production and innovation, and reward non-production and
+stagnation, that continually deprive individuals of their responsibility for
+the upkeep of society and the pursuit of adventure.&lt;/p&gt;
+&lt;p&gt;A good rule of thumb for escaping this mindset: whenever you think
+”Wouldn&amp;rsquo;t it be nice if &lt;em&gt;blah blah blah&lt;/em&gt; existed“ or ”Things
+would be so much better if someone did &lt;em&gt;such and such&lt;/em&gt;“, don&amp;rsquo;t wait for
+anyone—&lt;strong&gt;go and do it&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Also, for a red pill on the decivilising effects of these structures and idea
+of Natural Order, read the first two chapters of
+&lt;a href=&#34;https://archive.org/details/HoppeDemocracyTheGodThatFailed&#34;&gt;&lt;em&gt;Democracy: The God That Failed&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Multi-line Regular Expressions - Is $ really an assertion?</title>
+		<link>https://joaodear.xyz/blog/multi_line_regex/</link>
+		<pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
+		
+		<guid>https://joaodear.xyz/blog/multi_line_regex/</guid>
+		<description>&lt;p&gt;If you&amp;rsquo;ve programmed for any amount of time you probably know about
+regular expressions, the terse, sometimes unreadable, powerful syntax
+for describing arbitrary patterns of text. They can match any sort of
+pattern, be it a URL, an email address or a C function declaration.&lt;/p&gt;
+&lt;p&gt;However, despite their arbitrary matching power, most implementations and most
+programs that use them are implicitly limited to doing single line matches.
+You&amp;rsquo;ll become acutely aware of this if you try to use UNIX core utilities to do
+any kind of simple parsing (preprocessing HTML or Markdown for example). Very
+quickly you&amp;rsquo;ll turn to awk, annoyed at the fact that sed or grep are unable to
+accomplish such a simple task.&lt;/p&gt;
+&lt;p&gt;Recently, I discovered Rob Pike&amp;rsquo;s article
+&lt;a href=&#34;http://doc.cat-v.org/bell_labs/structural_regexps/&#34;&gt;&lt;em&gt;structural regular expressions&lt;/em&gt;&lt;/a&gt;,
+which tackles this very problem, and was quite intrigued.&lt;/p&gt;
+&lt;p&gt;The solution he provides is beautifully simple. Instead of tools like grep,
+sed, awk, diff etc. reading a file one line at a time, make them read one
+&lt;em&gt;byte&lt;/em&gt; at a time. This way, the implicit structure normally imposed on files
+and streams by these tools disappears, and the user can provide their own.&lt;/p&gt;
+&lt;p&gt;Inspired by Pike&amp;rsquo;s article, I have decided to take a crack at redesigning some
+core utilities with the afore mentioned limitations removed. And despite having
+just started this project, I&amp;rsquo;ve found what I&amp;rsquo;ll argue is another curious
+instance of implicit structure in the implementation of regular expressions:
+the end-of-line assertion or &lt;strong&gt;$&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;In a regular expression match function (or at least the ones I&amp;rsquo;ve looked at)
+&lt;strong&gt;^&lt;/strong&gt; and &lt;strong&gt;$&lt;/strong&gt; cause a skip to the next element of the expression without
+consuming a character in the input, whenever what they assert is true. This
+behaviour is semantically correct, &lt;strong&gt;^&lt;/strong&gt; and &lt;strong&gt;$&lt;/strong&gt; just ask the question
+”Am I at the beginning of a line?“ or ”Am I at the end of a
+line?“. So, given this behaviour, when looking at the string ”foo
+bar“ the expression ”^[a-z ]+$“ would return a match. But
+what about the expression ”stupid\.$Kelly“ and the string
+”Keep it simple, stupid.\nKelly Johnson“? Surprisingly, it won&amp;rsquo;t
+match.&lt;/p&gt;
+&lt;p&gt;The problem isn&amp;rsquo;t the newline character because the string ”foo bar\n“
+would be matched by the first expression just fine. So why the heck won&amp;rsquo;t it work?&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s step through the execution of expression 2.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Skip to the beginning of ”stupid.“ and match
+&lt;strong&gt;s&lt;/strong&gt;, &lt;strong&gt;t&lt;/strong&gt;, &lt;strong&gt;u&lt;/strong&gt;, &lt;strong&gt;p&lt;/strong&gt;, &lt;strong&gt;i&lt;/strong&gt;, &lt;strong&gt;d&lt;/strong&gt; and a literal dot.&lt;/li&gt;
+&lt;li&gt;Now we&amp;rsquo;re at &lt;strong&gt;\n&lt;/strong&gt; in the string and &lt;strong&gt;$&lt;/strong&gt; in the expression.&lt;/li&gt;
+&lt;li&gt;The end-of-line assertion succeeds.&lt;/li&gt;
+&lt;li&gt;We move to the next element in the expression &lt;strong&gt;K&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;See the problem? The assertion only moves you along in the expression,
+&lt;em&gt;not in the string&lt;/em&gt;. So, after the &lt;strong&gt;$&lt;/strong&gt; assert succeeds we try and match
+&lt;strong&gt;K&lt;/strong&gt;, but we&amp;rsquo;re still at the newline character in the string. How do we fix
+this you ask? It&amp;rsquo;s simple, make &lt;strong&gt;$&lt;/strong&gt; consume a character.&lt;/p&gt;
+&lt;p&gt;”But João“ you exclaim, ”it&amp;rsquo;s semantically incorrect for an
+assertion to consume a character!“&lt;br&gt;
+To this I say: &lt;em&gt;Is &lt;strong&gt;$&lt;/strong&gt; really an assertion?&lt;/em&gt;&lt;br&gt;
+I would argue that it &lt;em&gt;isn&amp;rsquo;t&lt;/em&gt;, or rather that it shouldn&amp;rsquo;t be treated the same
+as &lt;strong&gt;^&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;When asserting a beginning-of-line, you need to check that either you&amp;rsquo;re at the
+beginning of the string, or that the last character you looked at was a newline.
+Notice that this has &lt;em&gt;nothing&lt;/em&gt; to do with the current character in the string, so
+it would be wrong to walk along to the next character.
+On the other hand, when asserting an end-of-line, you need to check that either
+you&amp;rsquo;re at the end of the string, or that the character you&amp;rsquo;re &lt;em&gt;currently&lt;/em&gt;
+looking at is a null terminator or a newline. In the case of &lt;strong&gt;$&lt;/strong&gt;, it &lt;em&gt;does&lt;/em&gt;
+matter what the current character in the string is, so why should it not behave
+as though it matches something?&lt;/p&gt;
+&lt;p&gt;Using standard behaviour, a &lt;strong&gt;$&lt;/strong&gt; assert becomes completely useless unless you
+only put it at the end of the expression. So trying to check for an empty line
+somewhere in the middle of the expression, for example, has to be done with
+”^\n“, instead of ”^$“. Using our new behaviour, the
+&lt;strong&gt;$&lt;/strong&gt; actually becomes useful in multi-line regular expressions and makes them
+much more convenient to type, more syntactically consistent and more meaningful.&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>You Aren&#39;t What You Do!</title>
+		<link>https://joaodear.xyz/blog/you_arent_what_you_do/</link>
+		<pubDate>Tue, 22 Mar 2022 00:00:00 +0000</pubDate>
+		
+		<guid>https://joaodear.xyz/blog/you_arent_what_you_do/</guid>
+		<description>&lt;p&gt;I was chatting with a friend about this the other day, and it gave me the idea
+for this post. It&amp;rsquo;s sort of a personal letter to myself, but it may be of use
+to others.&lt;/p&gt;
+&lt;p&gt;What people do is one of the most common traits with which they identify.
+Identification with a profession is taught to children very early on through
+the age old question “What do you want to be when you grow up?”.
+As kids grow into somewhat-jaded-angsty-teens, the toils of school or an
+unfulfilling job are likely to cause identification with activities and
+passions, external to their ordinary routine, such as music, drawing,
+skateboarding, video games, studying obscure political theories etc.&lt;/p&gt;
+&lt;p&gt;This is usually seen as harmless (especially compared to other things people
+might identify with). However, I would argue the opposite, here are some
+reasons why.&lt;/p&gt;
+&lt;h2 id=&#34;fragility-of-self&#34;&gt;Fragility of Self&lt;/h2&gt;
+&lt;p&gt;If your job defines you, what happens when you&amp;rsquo;re laid off, or your company
+goes bankrupt? What about if you identify with playing the piano, and suddenly
+develop arthritis?&lt;/p&gt;
+&lt;p&gt;“But João” you exclaim “[&lt;em&gt;insert random activity&lt;/em&gt;] is my
+life, that couldn&amp;rsquo;t possibly happen to me!”. This made up answer is
+obviously ridiculous, but it was chosen to show that a person who has tied
+their identity to their occupation becomes intentionally blind to the
+possibility of losing the ability to do it, because finding something else
+would completely uproot their life—which will actually happen if they
+lose said ability.&lt;/p&gt;
+&lt;h2 id=&#34;social-isolation&#34;&gt;Social Isolation&lt;/h2&gt;
+&lt;p&gt;When you do basically nothing else outside your little niche, it becomes very
+difficult to have a conversation someone. Quite frankly, the average person
+doesn&amp;rsquo;t really care about the memory allocator you&amp;rsquo;re writing, or the
+intricacies of Austrian Economic theory you&amp;rsquo;ve spent countless hours studying.
+You may tell yourself that normal people are just boring or stupid, but that
+kind of attitude just leaves you incredibly lonely, or with a social circle
+with whom your only connection is this one super specific thing—probably
+both.&lt;/p&gt;
+&lt;h2 id=&#34;snobbery&#34;&gt;Snobbery&lt;/h2&gt;
+&lt;p&gt;Lastly, this kind of identification is likely to turn you into an arrogant,
+sneering individual, particularly towards others in your domain. This happens
+because viewing yourself in terms of your skill at a particular activity makes
+any indication of &lt;em&gt;lack of skill&lt;/em&gt; extremely threatening. Such indication may
+come from seeing others more skilled than you, but also from equally skilled
+people that highlight the fact that you&amp;rsquo;re not as good as you think.&lt;/p&gt;
+&lt;p&gt;This will cause you to be resentful, look down upon people to feel better,
+dismiss peers because their success damages your self image and just be an
+overall stuck up snob.&lt;/p&gt;
+&lt;h2 id=&#34;just-take-it-easy&#34;&gt;Just Take it Easy&lt;/h2&gt;
+&lt;p&gt;None of this is to say you shouldn&amp;rsquo;t do things you deeply enjoy and really
+dedicate yourself to doing them well, just don&amp;rsquo;t make the mistake of believing
+those things are somehow &lt;em&gt;you&lt;/em&gt;. “&lt;em&gt;You&amp;rsquo;re so much more than that&lt;/em&gt;”
+sounds kinda cringe but it&amp;rsquo;s true. You shouldn&amp;rsquo;t let yourself become
+pigeon-holed into one facet of life, make the effort to venture outside your
+comfort zone and pursue different things!&lt;/p&gt;
+&lt;p&gt;Always remember: &lt;em&gt;stuff you do&lt;/em&gt; is just that, &lt;em&gt;stuff you do&lt;/em&gt;, and nothing else.&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Hello World!</title>
+		<link>https://joaodear.xyz/blog/hello_world/</link>
+		<pubDate>Thu, 30 Dec 2021 00:00:00 +0000</pubDate>
+		
+		<guid>https://joaodear.xyz/blog/hello_world/</guid>
+		<description>&lt;h2 id=&#34;ldquo_hello-there_rdquo&#34;&gt;“&lt;em&gt;Hello there!&lt;/em&gt;”&lt;/h2&gt;
+&lt;p&gt;I was originally going to publish something much more &lt;em&gt;big braned&lt;/em&gt;
+as this blog&amp;rsquo;s inaugural article. But, in wanting to publish before the year&amp;rsquo;s
+end (and now having little time to do so), I&amp;rsquo;ve settled on writing a bit about
+myself and some things I&amp;rsquo;ve learned in the past 2 years, which should serve as
+a good pseudo-introduction to me and this blog.&lt;/p&gt;
+&lt;h2 id=&#34;the-collapse&#34;&gt;The Collapse&lt;/h2&gt;
+&lt;p&gt;Like most people my age, I was expecting to enter &lt;em&gt;a&lt;/em&gt; (air quotes) &lt;em&gt;new chapter
+of life&lt;/em&gt; in 2020—also like most people, I ended up just being stuck
+inside. For a good while at the beginning of the year I didn&amp;rsquo;t think much of
+it. I was still doing a bit of university work, watching YouTube video&amp;rsquo;s was
+still fun, and every now and then I&amp;rsquo;d go ride my bike.&lt;/p&gt;
+&lt;p&gt;At some point though, riding around your neighbourhood, doing homework and
+&lt;em&gt;consooming&lt;/em&gt; a daily dose of Pewdiepie gets old. In fact, it gets old pretty
+quick.&lt;/p&gt;
+&lt;h2 id=&#34;boredom&#34;&gt;Boredom&lt;/h2&gt;
+&lt;p&gt;Ah yes&amp;hellip;good old boredom, a feeling I hadn&amp;rsquo;t had for quite a while (what with
+the last year of school and all). I probably got bored sooner than
+most of my friends because, at the time, I was afflicted by an odd tingling
+pain in my arms whenever I tried to use them for anything either physically
+intensive, or that demanded lot&amp;rsquo;s of repetitive motion on the part of my hands.
+This meant: no guitar, no chatting on WhatsApp and most of all&amp;hellip;no video
+games. So no, to this day I have not played Among Us, ever.&lt;/p&gt;
+&lt;p&gt;But it was precisely at this time that things started to get interesting.&lt;/p&gt;
+&lt;p&gt;Some day in mid-April (maybe), I was so bored of scrolling through YouTube that
+I decided I&amp;rsquo;d put my time to good use and learn something, and in trying to
+think of something to learn I remembered that my Dad had told me once
+“Hey you should learn Python! I bet you&amp;rsquo;d really like it”.
+So I thought I&amp;rsquo;d give it a try.&lt;/p&gt;
+&lt;p&gt;As usual with these things, my Dad was right, and I eventually became (and
+currently still am) totally obsessed with programming (shortly after he also
+gave me the idea of trying Linux).&lt;/p&gt;
+&lt;h2 id=&#34;nonsense&#34;&gt;Nonsense&lt;/h2&gt;
+&lt;p&gt;The funny thing with Linux, VIM, programming languages and everything I
+began encountering, is that &lt;strong&gt;none of it made any sense&lt;/strong&gt; (at first).&lt;/p&gt;
+&lt;p&gt;This is pretty commonsensical, new things usually don&amp;rsquo;t &lt;em&gt;immediately&lt;/em&gt; make sense.
+But the weird thing I noticed, and only just recently, is: &lt;em&gt;there is no
+clear, rational process leading up to the understanding of new information&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;I came across this idea reading Paul Feyerabend&amp;rsquo;s &lt;em&gt;Against Method&lt;/em&gt; (whom I&amp;rsquo;ll probably
+write about in future), and bar a few edge cases, I think it describes my
+experience pretty well.&lt;/p&gt;
+&lt;p&gt;Feyerabend&amp;rsquo;s argument is roughly that learning a new skill, conceptual
+framework or language, doesn&amp;rsquo;t happen by carefully following the steps which
+explain &lt;em&gt;clearly&lt;/em&gt; what is to be learned (except in the mind of a pedagogue or in
+(((school))))—new information, if it is to be truly absorbed, cannot be offered
+up to someone in pieces for them to logically assemble in to what appears to be
+&lt;strong&gt;knowledge&lt;/strong&gt;. Instead, through playing, experimenting with and exposing
+oneself to something new, there is a steady accumulation of what amounts
+to &lt;strong&gt;nonsense&lt;/strong&gt;, but, if given enough time, this nonsense becomes so
+rich that it suddenly crystallizes—like flipping a switch, what was once
+unintelligible can now be understood.&lt;/p&gt;
+&lt;p&gt;Throughout this year everything I&amp;rsquo;ve learned, &lt;strong&gt;all of it&lt;/strong&gt;, was learned by
+persisting through nonsense.&lt;/p&gt;
+&lt;h2 id=&#34;at-years-end&#34;&gt;At Year&amp;rsquo;s End&lt;/h2&gt;
+&lt;p&gt;So in the spirit of the new year, I leave you with 2 little rules of thumb:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;You break out of old (sometimes bad) habits when you&amp;rsquo;re bored.&lt;br&gt;
+Boredom is your friend.&lt;/li&gt;
+&lt;li&gt;Don&amp;rsquo;t stop when none of what you&amp;rsquo;re learning makes sense (especially if the resources
+you have on the subject are terrible, that&amp;rsquo;s where you&amp;rsquo;ll discover something new).&lt;br&gt;
+Become comfortable with nonsense.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I bid you all a (late) Merry Christmas, and a Happy New Year!&lt;/p&gt;
+</description>
+	</item>
+	
+	</channel>
+</rss>
