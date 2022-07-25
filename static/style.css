@@ -119,6 +119,10 @@ footer h3 {
 	text-align: center;
 }
 
+.row {
+	column-count: 2;
+}
+
 .article-title {
 	font-size: 12pt;
 	padding-bottom: 5px;
@@ -196,38 +200,27 @@ footer {
 	padding: 15px;
 }
 
-@media (max-width: 55em) {
-	main {
-		max-width: 95%;
-	}
+.profile {
+	max-width: 256px;
+	padding: 20px;
 }
 
-/* specific to index.html */
 .left {
 	float: left;
-	width: 60%;
+	margin: auto;
 }
 
 .right {
 	float: right;
 	margin: auto;
-	max-width: 255px;
-}
-
-img.profile {
-	padding: 20px 0px 10px 0px;
-	max-width: 255px;
 }
 
 @media (max-width: 55em) {
-	.left , .right {
+	main {
+		max-width: 95%;
+	}
+	.left, .right {
 		float: none;
-	}
-	.left {
-		width: 100%;
-	}
-	.right {
 		display: block;
-		margin: auto;
 	}
 }

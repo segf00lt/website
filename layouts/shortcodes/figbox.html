@@ -1,0 +1,18 @@
+<!--
+	display multiple figures in a flexbox
+	
+	the last positional parameter is a caption for the box
+-->
+<br>
+<div style="display: flex; flex-flow: row wrap; justify-content: flex-start;">
+{{ $n := sub (len .Params) 1 }}
+{{ range first $n .Params }}
+<figure style="margin: 0px 40px;">
+	<img src="{{.}}" >
+</figure>
+{{ end }}
+</div>
+<div style="margin: 0px 40px;">
+{{ index .Params $n }}
+</div>
+<br>
