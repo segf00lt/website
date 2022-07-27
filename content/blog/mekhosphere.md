@@ -93,10 +93,10 @@ with and continue to direct it's development, we make technology a truly
 autonomous feature of our environment, and allow mankind to co-evolve with it in
 a relationship more similar to our primordial relationship with other living beings.
 
-Ted Kaczynski talks about
-[_surrogate activities_](https://medium.com/chris-messina/surrogate-activities-the-power-process-16203dda87).
-Unfortunately living in our current high-tech society predominantly involves
-surrogate activities of the increasingly mental kind, often at the expense of
+As Uncle Ted points out,
+living in our current high-tech society predominantly involves
+[_surrogate activities_](https://medium.com/chris-messina/surrogate-activities-the-power-process-16203dda87)
+of the increasingly mental kind, often at the expense of
 our _real needs_. Human beings hunt, forage, farm, trap, play, fight and flee. Our
 minds and our hearts are birthed from what we do with our _bodies_, and we
 ignore that at our peril. Adding a _sphere of machines_ to the stage of human
@@ -106,8 +106,8 @@ to experience and interact with technology more _primal_ way.
 In a future article I want to go into more detail on what a mekhosphere could look
 like, but for now I'll leave you with this.
 
-Imagine a world where we spear fish for metal octopi deep in the ocean,
-harvesting their components to build a submarine. Where we raise robotic camels
-in the desert, to build high efficiency cooling systems and devices that can
-harness water from air. Where we valiantly fight off predators, both animal and
-machine, to protect our kin.
+> _Imagine a world where we spear fish for metal octopi deep in the ocean,
+> harvesting their components to build a submarine. Where we raise robotic camels
+> in the desert, to build high efficiency cooling systems and devices that can
+> harness water from air. Where we valiantly fight off predators, both animal and
+> machine, to protect our kin_.
