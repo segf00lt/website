@@ -1,5 +1,5 @@
 ---
-title: You Aren't What You Do!
+title: You Aren't What You Do
 date: 2022-03-22
 draft: false
 ---

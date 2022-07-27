@@ -2,11 +2,6 @@
 draft: false
 ---
 
-<!--
-<div class="right">
-<img class="profile" src="/Joao.jpg">
-</div>
--->
 {{< img src="/Joao.jpg" class="right profile" >}}
 
 ## Welcome
