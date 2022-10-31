@@ -27,7 +27,7 @@ Try to set up my website (and maybe the montessori site)
 with each of the programs below.
 -->
 
-## [zs](https://github.com/zserge/zs)
+# [zs](https://github.com/zserge/zs)
 
 **zs** was the first program I came across, and it has some very interesting
 ideas. Most notably it's ability to call other programs that read stdin, and
@@ -41,7 +41,7 @@ or generating a locally linked version of your website for previewing.
 
 Additionally, **zs** allows defining variables in content file headers with YAML.
 
-## [saait](https://git.codemadness.org/saait/file/README.html)
+# [saait](https://git.codemadness.org/saait/file/README.html)
 
 I discovered **saait** on [suckless's](https://suckless.org) website.
 It's a bit more UNIX'y than **zs**. The example given of how to build

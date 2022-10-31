@@ -5,7 +5,7 @@ draft: false
 ---
 
 Ever seen that [PBS Space Time video](https://youtu.be/watch?v=4H55wybU3rI)
-about Von Neumann Probes? It's a cool video&#8212;The idea of self replicating
+about Von Neumann Probes? It's a cool video. The idea of self replicating
 robots colonizing the galaxy is cool, but the coolest thing in the video
 is a passing reference to a proposal by
 [Edward F. Moore](http://www.molecularassembler.com/KSRM/3.1.htm):
@@ -32,7 +32,7 @@ an industrial one (which may be the positive rebuttal to
 Hotz searches for). But there is a third interesting possibility that I see
 in the machine ecology: _to align technology with primal humanity_.
 
-### Enter the Mekhosphere
+## Enter the Mekhosphere
 
 Moore's artificial plants, Von Neumann probes and other self-replicators are
 certainly good pictures of what technology that can persist with in the absence of
@@ -69,8 +69,8 @@ Despite the similar name, however, a _Robosphere_ is not a _Mekhosphere_.
 What distinguishes the two is that machines in the mekhosphere are not designed
 as means to an end and as a result do not _necessarily_ cooperate. They are not
 mere swarms of robots made to turn mercury into a Dyson Sphere, or build
-factories on the Moon (although both are extremely cool). They are not tools
-nor anything else that makes them so closely intertwined with mankind. They are
+factories on the Moon (although both are extremely cool). They are not tools,
+nor anything else that would make them so closely intertwined with mankind. They are
 supposed to be living beings, members of yet another sphere of the ecosystem we
 inhabit. Some are peaceful, and would be make good friends, others are hostile
 and must be fought off. Both contain within their bodies powerful technology
@@ -81,7 +81,7 @@ depending on your view of the agricultural revolution).
 <!-- TODO find a better image of people hunting robots with spears -->
 {{< fig src=/pics/mekhosphere/horizon.jpg >}}
 
-### There's no need to play God&#8230; _just let go_
+## There's no need to play God&#8230; _just let go_
 
 Shifting technology away from industry in this way seems to me like a good
 alternative. In a way, it can be thought of as _technological secession_. We
@@ -98,10 +98,10 @@ living in our current high-tech society predominantly involves
 [_surrogate activities_](https://medium.com/chris-messina/surrogate-activities-the-power-process-16203dda87)
 of the increasingly mental kind, often at the expense of
 our _real needs_. Human beings hunt, forage, farm, trap, play, fight and flee. Our
-minds and our hearts are birthed from what we do with our _bodies_, and we
-ignore that at our peril. Adding a _sphere of machines_ to the stage of human
+minds and our hearts are birthed from what we do with our _bodies_, which we
+ignore _at our peril_. Adding a _sphere of machines_ to the stage of human
 life might be a way to shift emphasis back to the body and real external goals,
-to experience and interact with technology more _primal_ way.
+to experience and interact with technology in a more _primal_ way.
 
 In a future article I want to go into more detail on what a mekhosphere could look
 like, but for now I'll leave you with this.

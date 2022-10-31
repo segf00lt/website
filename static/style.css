@@ -28,10 +28,22 @@ header > h1 {
 	color: #dfdfdf;
 }
 
-h2 {
+h1 {
 	font-size: 18pt;
 	margin-top: 8px;
 	margin-bottom: 8px;
+}
+
+h2 {
+	font-size: 13pt;
+	margin-top: 7px;
+	margin-bottom: 7px;
+}
+
+h3 {
+	font-size: 11pt;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 ul {
@@ -182,6 +194,14 @@ pre {
 .note > h3 {
 	margin-top: 5px;
 	font-size: 13pt;
+}
+
+blockquote {
+	border-left-style: solid;
+	border-left-color: #dfdfdf;
+	border-left-width: 3px;
+	padding-left: 10px;
+	margin: 15px 15px;
 }
 
 div[class^="diagram"] {

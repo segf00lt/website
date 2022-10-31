@@ -2,7 +2,7 @@
 draft: true
 ---
 
-## Introduction
+# Introduction
 
 This my contribution to a [series of articles](https://swtch.com/~rsc/regexp/)
 on regular expressions by Russ Cox. In this article, I'll compare different
@@ -13,7 +13,7 @@ This article is not an introductory read, so I'd recommend reading Cox's stuff
 first if you've never had a go at implementing regular expressions yourself,
 although jumping in at the deep end isn't necessarily bad.
 
-## Finite Automata
+# Finite Automata
 
 First, I'll quickly go over _Finite Automata_.
 
@@ -70,7 +70,7 @@ circle at last circle rad last circle.rad/1.25
 These NFAs serve as the conceptual framework from which the representations
 I'll compare in this article derive.
 
-## Graphs
+# Graphs
 
 This is the most direct representation of the NFAs in code (and was also the
 first I encountered). Since the NFA diagram is itself a graph, it can be very
@@ -159,7 +159,7 @@ the main graph. Instead, sub-matches must be done by trying to match the input
 string n times, each time starting from the nth character in the string, which
 has an O(n<sup>2</sup>) time complexity.
 
-## Instructions
+# Instructions
 
 Another way of representing NFAs is as instructions for a virtual machine, as shown
 in the second Russ Cox article.
@@ -201,7 +201,7 @@ often have many empty fields, resulting in unsused memory, and, if we wish to
 extend the syntactic functionality of our regex implementation, it will come at
 the cost of yet more unused memory.
 
-## Bytecode
+# Bytecode
 
 In order to address the shortcomings of the previous representations, I decided
 that my regex implementation would represent the NFA using a stream of bytes,
@@ -274,7 +274,7 @@ are sized between 1 and 5 bytes, __CLASS__ being the only instruction that
 varies). The bytecode can be mutated by simple array manipulation, and can be
 extended without affecting the memory usage of existing syntax.
 
-## Conclusion
+# Conclusion
 
 As I said before, this article was not intended to be in any way an
 introduction to implementing regular expressions. So, in case you felt lost

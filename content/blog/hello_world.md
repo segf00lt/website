@@ -4,7 +4,7 @@ date: 2021-12-30
 draft: false
 ---
 
-## &ldquo;_Hello there!_&rdquo;
+# &ldquo;_Hello there!_&rdquo;
 
 I was originally going to publish something much more _big braned_
 as this blog's inaugural article. But, in wanting to publish before the year's
@@ -12,7 +12,7 @@ end (and now having little time to do so), I've settled on writing a bit about
 myself and some things I've learned in the past 2 years, which should serve as
 a good pseudo-introduction to me and this blog.
 
-## The Collapse
+# The Collapse
 
 Like most people my age, I was expecting to enter _a_ (air quotes) _new chapter
 of life_ in 2020&#8212;also like most people, I ended up just being stuck
@@ -24,7 +24,7 @@ At some point though, riding around your neighbourhood, doing homework and
 _consooming_ a daily dose of Pewdiepie gets old. In fact, it gets old pretty
 quick.
 
-## Boredom
+# Boredom
 
 Ah yes...good old boredom, a feeling I hadn't had for quite a while (what with
 the last year of school and all). I probably got bored sooner than
@@ -46,7 +46,7 @@ As usual with these things, my Dad was right, and I eventually became (and
 currently still am) totally obsessed with programming (shortly after he also
 gave me the idea of trying Linux).
 
-## Nonsense
+# Nonsense
 
 The funny thing with Linux, VIM, programming languages and everything I
 began encountering, is that __none of it made any sense__ (at first).
@@ -73,7 +73,7 @@ unintelligible can now be understood.
 Throughout this year everything I've learned, __all of it__, was learned by
 persisting through nonsense.
 
-## At Year's End
+# At Year's End
 
 So in the spirit of the new year, I leave you with 2 little rules of thumb:
 

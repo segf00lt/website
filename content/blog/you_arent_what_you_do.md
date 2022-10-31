@@ -20,7 +20,7 @@ This is usually seen as harmless (especially compared to other things people
 might identify with). However, I would argue the opposite, here are some
 reasons why.
 
-## Fragility of Self
+# Fragility of Self
 
 If your job defines you, what happens when you're laid off, or your company
 goes bankrupt? What about if you identify with playing the piano, and suddenly
@@ -34,7 +34,7 @@ possibility of losing the ability to do it, because finding something else
 would completely uproot their life&#8212;which will actually happen if they
 lose said ability.
 
-## Social Isolation
+# Social Isolation
 
 When you do basically nothing else outside your little niche, it becomes very
 difficult to have a conversation someone. Quite frankly, the average person
@@ -45,7 +45,7 @@ kind of attitude just leaves you incredibly lonely, or with a social circle
 with whom your only connection is this one super specific thing&#8212;probably
 both.
 
-## Snobbery
+# Snobbery
 
 Lastly, this kind of identification is likely to turn you into an arrogant,
 sneering individual, particularly towards others in your domain. This happens
@@ -58,7 +58,7 @@ This will cause you to be resentful, look down upon people to feel better,
 dismiss peers because their success damages your self image and just be an
 overall stuck up snob.
 
-## Just Take it Easy
+# Just Take it Easy
 
 None of this is to say you shouldn't do things you deeply enjoy and really
 dedicate yourself to doing them well, just don't make the mistake of believing
