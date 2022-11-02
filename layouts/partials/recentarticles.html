@@ -1,4 +1,4 @@
-<h2>{{ if not .IsHome }}{{ .Title | title }} | {{ end }}Recent Articles</h2>
+<h1>{{ if not .IsHome }}{{ .Title | title }} | {{ end }}Recent Articles</h1>
 <div class="article-list">
 <ul>
 {{ range first 3 (where .Site.RegularPages "Section" "blog") }}
