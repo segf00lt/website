@@ -24,10 +24,10 @@ From the very beginning of my semester, I noticed that though a small minority
 of my classmates were somewhat interested in what we were doing, even this
 minority treated everything as they would school work, reacting to difficulty
 as something frightening, always asking &ldquo;Is this gonna be on the
-exam?&rdquo;, and generally treating the course as a chore. This schoolboy
-attitude is indicative of the fact that these people aren't actually there
-because they want to be, but instead are there due to some external factor.
-I haven't straight up asked anyone yet, but I have a hunch that, when
+exam?&rdquo;, and generally behaving as though the course is a chore. This
+schoolboy attitude is indicative of the fact that these people aren't actually
+there because they want to be, but instead are there due to some external
+factor. I haven't straight up asked anyone yet, but I have a hunch that, when
 questioned about it, no one really knows _why_ they're at university.
 
 The cause of this ignorance is manifold: first of all, going to university or
@@ -37,7 +37,7 @@ quite large, and quite bad at selecting for people who are interested in what
 they're applying for. Secondly, most are too lazy or have too high a time
 preference to invest some time into _actually_ exploring the gamut of
 possibilities laid before them, before pulling the trigger on any one path (I
-used to be in this category). Unfortunately, this behaviour is rewarded by the
+used to be in this category). Unfortunately, this is rewarded by the
 schooling environment (and the society at large), making it far more common
 than it otherwise would be.
 
@@ -59,13 +59,13 @@ has been spent in a high-school centered microcosm of reality, she has very
 little experience of anything beyond that. As a result she is unsure, at this
 &ldquo;pivotal&rdquo; moment in her life, as to what she should do. Should she
 continue on the path that every adult she encounters has told her is the right
-one and enroll in some prestigious course at a prestigious university? Or
+one and enroll in some prestigious degree at a prestigious university? Or
 should she take time to wait and explore her options on her own?
 
-Alice (being a _rational_ individual) clearly see's that proceeding on the path
+Alice, being a _rational_ individual, clearly sees that proceeding on the path
 given to her is a sure bet, the outcome is certain, as she has been given
-extensive information (which as far as she is concerned is true) about this
-path by teachers, family, friends, etc.
+extensive information about this path by teachers, family, friends, etc. which
+as far as she is concerned is true.
 
 On the other hand, exploring on her own is not something she has been exposed
 to. It is not necessary for school and as a result occurs only through personal
@@ -87,14 +87,15 @@ by no means comprehensive.
 
 I did a very small poll where I asked a handful of my friends who are in
 university (~5 people) the following question: how many people do you know that
-are truly invested in their course? The highest answer I got was 3 (which
-included me and the answerer), and the others where all 0 . Why does it have to
-be like this? Why is everyone comfortable with being aimless? With doing things
-they dislike? Prior to enrolling in Computer Science I personally fell for the
-uni scam and enrolled in another course straight out of high-school. But while
-I was there and wasn't sure what I actually wanted to do I still tried to _get
-into it_. I explored the field on my own time and made an effort to become
-interested. When I realized it wasn't for me, I dropped out.
+are truly invested in what they're doing at university? The highest answer I
+got was 3 (which included me and the answerer), and the others where all 0.
+Why does it have to be like this? Why is everyone comfortable with being
+aimless? With doing things they dislike? Prior to enrolling in Computer Science
+I personally fell for the uni scam and enrolled in another degree straight out
+of high-school. But while I was there and wasn't sure what I actually wanted to
+do I still tried to _get into it_. I explored the field on my own time and made
+an effort to become interested. When I realized it wasn't for me, I dropped
+out.
 
 If no one really cares for the path they're on, nobody works on stuff beyond
 what they've been told to (or on their own time), and everybody complains about
@@ -112,7 +113,7 @@ Will they ever realize this is a dead end? Oh well, _Who is John Galt_?
 # Skill
 
 Reading this you may wonder why _I_ am at university. I have a very clear
-mission: to acquire skill.  Not to engage in university life or student
+mission: to acquire skill. Not to engage in university life or student
 politics, and certainly not to start an academic career. Simply to become
 exceptional at difficult things I enjoy doing. This has been my explicit
 goal since around when I started this blog. I am only at university in so far
@@ -121,9 +122,9 @@ as I think it serves this goal. As soon as that changes, I'm out.
 As far as I've seen, math education isn't in such a bad
 state. But my brush with the course's introduction to programming makes me
 skeptical of the other CS focused classes. The drop out rate is among the
-highest, up there with physics, which makes me think either the course gets
+highest, up there with physics, which makes me think either it gets
 better and more challenging but the university is bad at selecting candidates,
-or it gets worst and the more talented students decide it's a waste of time.
+or it gets worse and the more talented students decide it's a waste of time.
 I'd be interested to see the scores of the dropouts.
 
 With regards to the introductory part, most of the first and second semester
@@ -134,8 +135,8 @@ semesters could focus on studying various branches of CS more deeply, in a
 similar first-principles style. I'm thinking _From Matmul to MNIST_ or
 _From the Pixel to Quake_. Devise a simple version of each branch's stack,
 and build the whole thing from scratch. But I doubt that an approach like this
-could be done when you're busy teaching your freshmen to program in python
-(with 3 months dedicated to explaining basic control flow).
+could be done when you're busy teaching your freshmen to program in python,
+with 3 months dedicated to explaining basic control flow.
 
 Overall it seems that the diagnosis I've heard others give is correct. The
 university is dead, for Computer Science anyway, It just doesn't know it yet.
@@ -169,16 +170,17 @@ you just build something 10x better.
 
 # Friends
 
-I've had trouble sleeping for a while. Busy mind, lot's of unexpressed
-thoughts. The other night I went out with a good friend who I hadn't seen in a
-while, and managed to free some of the ideas from my own head. I long for this
-kind of connection among my classmates.
+I've had trouble sleeping. Busy mind, lot's of unexpressed thoughts. The other
+night I went out with a good friend who I hadn't seen in a while, and managed
+to free some of the ideas from my own head. I long for this kind of connection
+with a classmate.
 
-Whatever replaces university has to foster these kinds of relationships. Once
-again, martial arts set a good example. Challenging, upward-bound goals toward
-which students can be guided by their teachers. Competition for the approval of
-the mentor. Experiences around which real camaraderie and brotherhood can
-flourish.
+Whatever aims to replace university has to foster these kinds of
+relationships, and create an environment where people see the mutually
+masturbatory whining that goes on now for what it is. Once again, martial arts
+set a good example. Challenging, upward-bound goals toward which students can
+be guided by their teachers. Competition for the approval of the mentor.
+Experiences around which real camaraderie and brotherhood can flourish.
 
 From [Bronze Age Mindset](https://archive.org/details/bronze-age-pervert-bronze-age-mindset-2018).
 
@@ -211,3 +213,5 @@ of the Bronze Age, of the age of great adventures [. . .] You must only embrace
 your own instincts with abandon and understand that in common dedication to a
 higher cause, a great friend is invaluable because you spur each other on and
 keep guard on each other in the mission.
+
+I wish to you all great friendships.

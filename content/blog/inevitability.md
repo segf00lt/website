@@ -65,12 +65,12 @@ independent beings, and behave as such. This isn't the case with our
 machines&#8212;we aren't looking at a genie, we aren't even looking at a puppy
 dog.
 
-Conscious of your inability to craft toilet paper, are you anywhere near as certain
-that _the singularity is near_? Or that it's somehow inevitable? The toilet paper
-question is meant to reveal that out tech depends on industry, and industry along
-with most of contemporary civilization is an uncountably large, interdependent
-graph&#8212;cloud doesn't even come close, try galactic nebula&#8212;and it's
-not only complex, it's **fragile**.
+Conscious of your inability to craft toilet paper, are you anywhere near as
+certain that _the singularity is near_? Or that it's somehow inevitable? The
+toilet paper question is meant to reveal that out tech depends on industry, and
+industry along with most of contemporary civilization is an uncountably large,
+interdependent graph&#8212;cloud doesn't even come close, try galactic
+nebula&#8212;and not only is it complex, it's **fragile**.
 
 [Bronze Age Collapse](https://youtu.be/watch?v=bRcu-ysocX4) anyone?
 Who's to say that before someone solves the

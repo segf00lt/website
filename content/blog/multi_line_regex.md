@@ -58,7 +58,7 @@ _not in the string_. So, after the **$** assert succeeds we try and match
 **K**, but we're still at the newline character in the string. How do we fix
 this you ask? It's simple, make **$** consume a character.
 
-&rdquo;But João&ldquo; you exclaim, &rdquo;it's semantically incorrect for an
+&rdquo;But João&ldquo; you exclaim, &rdquo;its semantically incorrect for an
 assertion to consume a character!&ldquo;  
 To this I say: _Is **$** really an assertion?_  
 I would argue that it _isn't_, or rather that it shouldn't be treated the same

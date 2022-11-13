@@ -89,7 +89,7 @@ give up the right to control technology, and the responsibility associated with
 it, handing it over to creation itself.  
 The influence machines exert over us is accordingly diminished to sane levels.  
 Instead of needing to augment and artificially improve ourselves to keep up
-with and continue to direct it's development, we make technology a truly
+with and continue to direct its development, we make technology a truly
 autonomous feature of our environment, and allow mankind to co-evolve with it in
 a relationship more similar to our primordial relationship with other living beings.
 

@@ -7,7 +7,7 @@ draft: false
 There's a jetty near where I live that people like to jump and dive off of.
 One morning, I  was on the jetty and overheard a conversation between a man
 nicknamed _Bigode_ (Portuguese for moustache), and another man. Bigode was
-telling him about when the jetty used to have two long planks at it's end that
+telling him about when the jetty used to have two long planks at its end that
 allowed people to jump and dive easily, landing in a sandy patch amid the rocks
 below. Back then, Bigode told the man, many more people came to the
 jetty, and, naturally, among these people were some idiots. Occasionally, one

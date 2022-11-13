@@ -82,7 +82,7 @@ The flag __-t__ selects which match is to be printed, starting from 0.
 In the command above __-t__ is selecting the content matched by the second regular
 expression, corresponding to the publisher field of the book entry.
 
-A more impressive display of __siv__'s capabilities is it's ability to do rudimentary parsing.
+A more impressive display of __siv__'s capabilities is its ability to do rudimentary parsing.
 The expression
 `^([A-Za-z_][A-Za-z_*0-9]* ?)+\** [A-Za-z_][A-Za-z_0-9]*\([^\n]\)[ \n]{\n.+^}$`
 codes for a C function, whose header is all on one line, and whose body may
@@ -107,6 +107,6 @@ $ siv -e '^.*$' -e 'siv's not grep'
 ```
 
 Now that __siv__ is finally in a working state I'll be testing it more in
-everyday use to get a better understanding of it's strengths and weaknesses. I
+everyday use to get a better understanding of its strengths and weaknesses. I
 encourage anyone who's interested to clone the [sreutils](https://github.com/segf00lt/sreutils)
 repo and give it a try.
