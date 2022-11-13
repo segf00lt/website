@@ -147,7 +147,7 @@ likely be able to outpace that part too. If these languages had more online
 material and a greater overall web presence, formal math education would become
 just like learning to code. A similar approach could be taken with biology,
 physics, chemistry, architecture, history, mechanical and electrical
-engineering, linguistics&#8212;any field worth it's salt. With the right tools,
+engineering, linguistics&#8212;any field worth its salt. With the right tools,
 the means necessary for intellectual training start to look like
 &ldquo;compiler&rdquo; + &ldquo;editor&rdquo; + &ldquo;stackoverflow&rdquo;.
 The only barriers to entry are interest and discipline.
