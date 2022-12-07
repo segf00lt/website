@@ -85,17 +85,15 @@ by no means comprehensive.
 
 # Attitude
 
-I did a very small poll where I asked a handful of my friends who are in
-university (~5 people) the following question: how many people do you know that
-are truly invested in what they're doing at university? The highest answer I
-got was 3 (which included me and the answerer), and the others where all 0.
-Why does it have to be like this? Why is everyone comfortable with being
+I did a very small poll where I asked a handful of my friends the following
+question: how many people do you know that are truly invested in what they're
+doing at university? The highest answer I got was 3 (which included me and the
+answerer), and the others were all 0. Why is everyone comfortable with being
 aimless? With doing things they dislike? Prior to enrolling in Computer Science
 I personally fell for the uni scam and enrolled in another degree straight out
 of high-school. But while I was there and wasn't sure what I actually wanted to
 do I still tried to _get into it_. I explored the field on my own time and made
-an effort to become interested. When I realized it wasn't for me, I dropped
-out.
+an effort to become interested. When I realized it wasn't for me, I dropped out.
 
 If no one really cares for the path they're on, nobody works on stuff beyond
 what they've been told to (or on their own time), and everybody complains about
@@ -170,7 +168,7 @@ you just build something 10x better.
 
 # Friends
 
-I've had trouble sleeping. Busy mind, lot's of unexpressed thoughts. The other
+I've had trouble sleeping. Busy mind, lots of unexpressed thoughts. The other
 night I went out with a good friend who I hadn't seen in a while, and managed
 to free some of the ideas from my own head. I long for this kind of connection
 with a classmate.

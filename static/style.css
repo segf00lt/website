@@ -217,7 +217,10 @@ footer {
 	text-align: center;
 	border-top-style: solid;
 	border-top-width: 2px;
-	padding: 15px;
+	padding-top: 20px;
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-bottom: 30px;
 }
 
 .profile {

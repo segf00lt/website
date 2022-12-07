@@ -17,14 +17,13 @@ important.
 # Progress
 
 Like everyone, I too am susceptible to the idea of *progress*. Even people who
-identify as postmodernists sometimes fall prey to this meme. George Hotz for
-example, _famous postmodernist_, is also a believer in _the singularity_. To
-make sure we're all using the same definition, technological singularity
-happens when the rate of technological development gets so high that changes in
-human civilization become unforeseeable and uncontrollable. Additionally, I
-think it's fair to say that most people who believe in the singularity also
-believe we're inexorably moving towards it&#8212;&ldquo;the genie is out of the
-bottle&rdquo;.
+identify as postmodernists sometimes fall prey to this meme. _The singularity_
+is one such example. To make sure we're all using the same definition,
+technological singularity happens when the rate of technological development
+gets so high that changes in human civilization become unforeseeable and
+uncontrollable. Additionally, I think it's fair to say that most people who
+believe in the singularity also believe we're inexorably moving towards
+it&#8212;&ldquo;the genie is out of the bottle&rdquo;.
 
 Okay, so why did I bring up postmodernism? Well, a rough definition of it would
 be skepticism of the &ldquo;grand modernist narratives&rdquo;. It just so happens that
@@ -56,27 +55,25 @@ Here's a harder one: can you build a microprocessor?
 Or even better, _a microprocessor factory_. A few groups of Taiwanese might be
 able to, anyone else? China? The EU? What happens when this China VS Taiwan
 situation doesn't go how everyone expects it to? Hypothetical &ldquo;We're all
-screwed&rdquo; scenario: Shenzhen HiSilicon 1-up's TSMC, and Whinnie the Pooh
+screwed&rdquo; scenario: Shenzhen HiSilicon 1-up's TSMC, and Winnie the Pooh
 promptly carpet bombs Taiwan into submission. _Can you build a microprocessor?_
 
 It's not just that you and most of the world can't, _a microprocessor can't
-build a microprocessor_. Genie's may be beholden to their masters but they are
-independent beings, and behave as such. This isn't the case with our
-machines&#8212;we aren't looking at a genie, we aren't even looking at a puppy
-dog.
+build a microprocessor_. Our machines are far from being independent
+organisms&#8212;we aren't looking at a genie, we aren't even looking at a puppy dog.
 
 Conscious of your inability to craft toilet paper, are you anywhere near as
 certain that _the singularity is near_? Or that it's somehow inevitable? The
 toilet paper question is meant to reveal that out tech depends on industry, and
-industry along with most of contemporary civilization is an uncountably large,
+industry along with most of contemporary civilization is an ridiculously large,
 interdependent graph&#8212;cloud doesn't even come close, try galactic
-nebula&#8212;and not only is it complex, it's **fragile**.
+nebula&#8212;and as a result of this interdependence, **it is fragile**.
 
 [Bronze Age Collapse](https://youtu.be/watch?v=bRcu-ysocX4) anyone?
 Who's to say that before someone solves the
 [Hutter Prize](https://en.wikipedia.org/wiki/Hutter_Prize),
 everyone who knows how to make chips doesn't pass
-the knowledge on to the next generation and every processor beyond that point
+the knowledge on, and every processor beyond that point
 has more and more strange esoteric faults? It wouldn't be the
 [first time](https://www.sigmicro.org/media/oralhistories/colwell.pdf)
 (see page 68 of 164, the section on Multiflow).
@@ -88,7 +85,7 @@ uncontrollable&rdquo;, we're **always** in that state. Patterns can be recognize
 useful predictions and preparations can be made, but the course of history
 isn't amenable to logical proof. Many have tried to create such proofs,
 _all have failed_. Any apparent correctness is more than likely accidental
-and rarely wholistic. No one has a clue what's around the corner, most of those
+and rarely holistic. No one has a clue what's around the corner, most of those
 who say they do are trying to sell you something.
 
 Along with certainty of the future, there is also certainty of the present.
