@@ -1,11 +1,5 @@
 *save.vim*
 *.vim
-src/blog/articles/*
-mock
-foo*
-bar*
-lipsum*
-src/blog/articles/*
 themes/lugo
 .hugo_build.lock
 public/
